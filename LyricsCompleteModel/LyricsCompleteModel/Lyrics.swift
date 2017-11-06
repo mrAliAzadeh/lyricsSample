@@ -156,7 +156,7 @@ class Lyrics {
         thisLable.frame.origin.y = self.configuration!.topLabel.frame.origin.y
         
         var allSubTitleViews = [UIView]()
-    
+        thisLable.textColor = UIColor.orange
         for view in self.configuration!.topView.subviews where view.tag != 999 {
             // for each view in top view insted of topLabel in configuration
    
