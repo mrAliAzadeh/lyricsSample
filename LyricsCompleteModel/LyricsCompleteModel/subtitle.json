@@ -1,61 +1,10 @@
 
 [{
- "title": "Caliente soy",
- "DisplayStartTime": 10000,
- "DisplayEndTime": 14000,
- "direction" : "LTR",
- "index" : 0 ,
- "HighlighOffsetsTiming": [{
-                           "startTime": 10000,
-                           "rate": 2000 ,
-                           "biginnerCharIndex" : 0 ,
-                           "endCharIndex" : 8 ,
-                           "index" : 0
-                           
-                           },
-                           {
-                           "startTime": 12000,
-                           "rate": 2000 ,
-                           "biginnerCharIndex" : 9 ,
-                           "endCharIndex" : 3 ,
-                           "index" : 1
-                           }
-                           ]
- },{
- "title": "salam bar to",
- "DisplayStartTime": 14050,
- "DisplayEndTime": 20050,
- "direction" : "LTR",
- "index" : 1 ,
- "HighlighOffsetsTiming": [{
-                           "startTime": 14050,
-                           "rate": 1000 ,
-                           "biginnerCharIndex" : 0 ,
-                           "endCharIndex" : 4 ,
-                           "index" : 0
-                           
-                           },
-                           {
-                           "startTime": 15050,
-                           "rate": 1000 ,
-                           "biginnerCharIndex" : 5 ,
-                           "endCharIndex" : 8 ,
-                           "index" : 1
-                           },
-                           {
-                           "startTime": 16050,
-                           "rate": 1000 ,
-                           "biginnerCharIndex" : 9 ,
-                           "endCharIndex" : 11 ,
-                           "index" : 2
-                           }
-                           ]
- },{
  "title": "پوست تنش تابستون",
  "DisplayStartTime": 30000,
  "DisplayEndTime": 33000,
   "direction" : "RTL",
- "index" : 2 ,
+ "index" : 0 ,
  "HighlighOffsetsTiming": [{
                            "startTime": 30000,
                            "rate": 1000 ,
@@ -81,7 +30,7 @@
                            ]
  }, {
  "title": "لباش گلای گلدون",
- "index" : 3 ,
+ "index" : 1 ,
  "DisplayStartTime": 33050,
  "DisplayEndTime": 36050,
   "direction" : "RTL",
@@ -110,7 +59,7 @@
  },
  {
  "title": "چشاش شبای یلدا",
- "index" : 4 ,
+ "index" : 2 ,
  "DisplayStartTime": 36100,
  "DisplayEndTime": 39100,
   "direction" : "RTL",
@@ -138,7 +87,7 @@
                            ]
  }, {
  "title": "سیاهی شبستون" ,
- "index" : 5 ,
+ "index" : 3 ,
  "DisplayStartTime": 39150,
  "DisplayEndTime": 42150,
  "direction" : "RTL",

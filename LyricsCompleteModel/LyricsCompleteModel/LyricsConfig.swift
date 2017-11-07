@@ -14,6 +14,7 @@ class LyricsConfig {
     var topView : UIView!
     var bottomView : UIView!
     var controller : UIViewController?
+    var status = LyricsStatus()
     var topLabel : UILabel!{
         didSet{
             self.topLabel.sizeToFit()
@@ -22,7 +23,7 @@ class LyricsConfig {
     }
     var bottomLabel : UILabel!
     var lastShowInsideBlockIndex = -1
-    
+    var timerRateCheckingJSON : Double = 0.2
     static let shared = LyricsConfig()
     var isTopFilled : Bool = false // just control that is it first time to set value or not , if false mean this is first time
     var isBottomFilled : Bool = false // just control that is it first time to set value or not , if false mean this is first time

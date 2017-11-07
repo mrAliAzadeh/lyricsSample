@@ -51,12 +51,11 @@ class ViewController: UIViewController {
     lyrics.configuration = LyricsConfig.shared
         lyrics.setLyrics(from: Bundle.main.url(forResource: "subtitle", withExtension: "json")!)
         lyrics.configuration!.topView = topView
-        lyrics.configuration?.bottomView = bottomView
+        lyrics.configuration!.bottomView = bottomView
         lyrics.configuration!.topLabel = lblTop
-        lyrics.configuration?.bottomLabel = lblBottom
-        lyrics.configuration?.showSubtitleTextColor = UIColor.red
-        lyrics.configuration?.defaultSubtitleTextColor = UIColor.black
-
+        lyrics.configuration!.bottomLabel = lblBottom
+        //lyrics.configuration?.showSubtitleTextColor = UIColor.red
+        //lyrics.configuration?.defaultSubtitleTextColor = UIColor.black
         lyrics.configuration!.controller = self
     }
 
@@ -70,6 +69,7 @@ class ViewController: UIViewController {
             NSAttributedStringKey.font : UIFont.init(name: "BYekan", size: 18)!
             ] as [NSAttributedStringKey : Any] as [NSAttributedStringKey : Any]
         self.lblTop.attributedText = NSAttributedString(string: "salam" , attributes: strokeTextAttributes)
+         self.lblBottom.attributedText = NSAttributedString(string: "salam" , attributes: strokeTextAttributes)
     }
 }
 
