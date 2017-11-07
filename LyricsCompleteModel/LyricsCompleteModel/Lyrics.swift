@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 class Lyrics {
+    
     var mainTimer : Timer? // timer that execute
     var  counter: Double = -1 // timer counter per time called
     var configuration : LyricsConfig?
@@ -83,78 +84,62 @@ class Lyrics {
             }else{
              // this is second or more time that show this label
             }
-            //print("sentence index is : \(sentenceIndex)")
-            //print("val is : \(!self.content!.subTitleArray[sentenceIndex].isShown)")
-           //->  self.configuration!.topLabel.sizeToFit()
-          //   self.configuration!.topLabel.frame.origin.x = (self.configuration!.topView.frame.origin.x / 2) - (self.configuration!.topLabel.frame.size.width / 2)
-            
-         //->    self.configuration!.topLabel.frame.origin.x = self.configuration!.topView.bounds.size.width / 2
-            
+           
             if wordIndex != nil ,  !self.content!.subTitleArray[sentenceIndex].detail[wordIndex!].isShown {
                 // this is first time for show word
                
                 removeFromWordSubTitleViewArray(currentIndex: sentenceIndex)
                 self.content!.subTitleArray[sentenceIndex].detail[wordIndex!].isShown = true
-                
-         
               let thisSentence = self.content!.subTitleArray[sentenceIndex].title!
               
                 let allContrentArray = thisSentence.components(separatedBy: " ")
-
-                let thisWord = allContrentArray[wordIndex!]
+                var thisWord = allContrentArray[wordIndex!]
                 
-               
-             
-             //   "salam".utf8[indexStartOfText...indexEndOfText]
-                
+                if self.content!.subTitleArray[sentenceIndex].direction == .rtl {
+                    // persian
+                    if wordIndex != 0 {thisWord.append(" ")}
+                }else{
+                    // english
+                    if wordIndex! != self.content!.subTitleArray[sentenceIndex].detail.count - 1 {
+                        thisWord.append(" ")
+                    }
+                }
+         
+                let direction = self.content!.subTitleArray[sentenceIndex].direction
                 
                 let animationTime = self.content!.subTitleArray[sentenceIndex].detail[wordIndex!].duration! / 1000
                 
                 if self.content!.subTitleArray[sentenceIndex].detail.count-1 == wordIndex! {
                     // last word
-                    play(thisWordShownigWord: thisWord, sentenceIndex: sentenceIndex, isLastWordInSentec: true, durationAnimation: animationTime)
+                    play(thisWordShownigWord: thisWord, sentenceIndex: sentenceIndex, isLastWordInSentec: true, durationAnimation: animationTime, direction: direction)
                 }else{
-                    play(thisWordShownigWord: thisWord, sentenceIndex: sentenceIndex, isLastWordInSentec: false, durationAnimation: animationTime)
+                    play(thisWordShownigWord: thisWord, sentenceIndex: sentenceIndex, isLastWordInSentec: false, durationAnimation: animationTime, direction: direction)
                 }
-                
-               
-                
-               // play(lablel: configuration!.topLabel, fromIndex: Int(self.content!.subTitleArray[sentenceIndex].detail[wordIndex!].biginnerCharIndex!), toIndex: Int(self.content!.subTitleArray[sentenceIndex].detail[wordIndex!].endCharIndex!), senntecIndex: sentenceIndex, wordIndex: wordIndex!, shownigMessage:String(describing: thisMessage))
+           
             }else{
                 // this is second or more than to show
             }
-               
-            
-//            play(lablel: configuration!.topLabel, fromIndex: Int(self.content!.subTitleArray[sentenceIndex].detail[wordIndex!].startTime!), toIndex: self.configuration!.topLabel, fromIndex: Int(self.content!.subTitleArray[sentenceIndex].detail[wordIndex!].endCharIndex!))
+
         }
     }
     
-    func play(thisWordShownigWord : String , sentenceIndex sentencID : Int , isLastWordInSentec : Bool , durationAnimation : TimeInterval){
+    func play(thisWordShownigWord : String , sentenceIndex sentencID : Int , isLastWordInSentec : Bool , durationAnimation : TimeInterval , direction : LyricsLanguageType){
         
         let thisLable = UILabel.init()
         
-        var contentString = ""
-        
-        if isLastWordInSentec {
-            contentString = thisWordShownigWord
-        }else{
-            // persian
-            contentString = " \(thisWordShownigWord)"
-            // english
-            // str + " "
-        }
+        let contentString = thisWordShownigWord
+
         
         
         thisLable.text = contentString
         thisLable.font = self.configuration!.topLabel.font
-   //     insertToWordSubTitleViewArray(key: <#T##Int#>, value: <#T##[String]#>)
-        
+         setAtrebuteForLyrics(sender: thisLable, text: contentString)
          thisLable.sizeToFit()
-        thisLable.contentMode = .right
-        thisLable.semanticContentAttribute = .forceRightToLeft
-        thisLable.frame.size.height = self.configuration!.topLabel.frame.size.height
-        thisLable.frame.origin.y = self.configuration!.topLabel.frame.origin.y
         
+       setDirectionForThisLabel(sender: thisLable, direction: direction)
+        
+        thisLable.frame.size.height = self.configuration!.topLabel.frame.size.height
+        thisLable.frame.origin.y = self.configuration!.topLabel.frame.origin.y 
         var allSubTitleViews = [UIView]()
         thisLable.textColor = UIColor.orange
         for view in self.configuration!.topView.subviews where view.tag != 999 {
@@ -170,20 +155,37 @@ class Lyrics {
         var destinationWidth = CGFloat(0)
         var destinationOriginX = CGFloat(0)
         
-        if allSubTitleViews.count >= 1  {
-            // this is not first word
-           
-       //  thisLable.frame.origin.x = allSubTitleViews.last!.frame.origin.x - thisLable.frame.size.width
-            thisLable.frame.origin.x = allSubTitleViews.last!.frame.origin.x
-            destinationOriginX = allSubTitleViews.last!.frame.origin.x - thisLable.frame.size.width
+        if direction == .rtl {
+            // right to left
+            if allSubTitleViews.count >= 1  {
+                
+                thisLable.frame.origin.x = allSubTitleViews.last!.frame.origin.x
+                destinationOriginX = allSubTitleViews.last!.frame.origin.x - thisLable.frame.size.width
+            }else{
+                thisLable.frame.origin.x =    self.configuration!.topLabel.frame.origin.x + self.configuration!.topLabel.frame.size.width
+                
+                destinationOriginX = self.configuration!.topLabel.frame.origin.x + self.configuration!.topLabel.frame.size.width - thisLable.frame.size.width
+            }
+            
         }else{
-            // this is first word
+            // leftr to right
             
-          //  thisLable.frame.origin.x = self.configuration!.topLabel.frame.origin.x + self.configuration!.topLabel.frame.size.width - thisLable.frame.size.width
-         thisLable.frame.origin.x =    self.configuration!.topLabel.frame.origin.x + self.configuration!.topLabel.frame.size.width
-            
-              destinationOriginX = self.configuration!.topLabel.frame.origin.x + self.configuration!.topLabel.frame.size.width - thisLable.frame.size.width
+            if allSubTitleViews.count >= 1  {
+                
+                thisLable.frame.origin.x = allSubTitleViews.first!.frame.origin.x + allSubTitleViews.first!.frame.size.width
+                print("last orig x is : \(thisLable.frame.origin.x)")
+                destinationOriginX = thisLable.frame.origin.x
+                
+                
+                
+            }else{
+                thisLable.frame.origin.x =    self.configuration!.topLabel.frame.origin.x
+                
+                destinationOriginX = thisLable.frame.origin.x
+            }
         }
+        
+       
     
         destinationWidth =  thisLable.frame.size.width
         thisLable.frame.size.width = 0
@@ -195,10 +197,11 @@ class Lyrics {
         thisLable.lineBreakMode = .byCharWrapping
         
         self.configuration!.topView.addSubview(thisLable)
-        UIView.animate(withDuration: durationAnimation) {
-            thisLable.frame.origin.x = destinationOriginX
-            thisLable.frame.size.width =  destinationWidth
-        }
+        
+        
+        expandViewWithAnimation(sender: thisLable, animationTime: durationAnimation,  destinationWidth: destinationWidth, destinationOriginX: destinationOriginX)
+        
+        
         self.insertToWordSubTitleViewArray(key: sentencID, view: thisLable)
         
 
@@ -230,6 +233,45 @@ class Lyrics {
         }
 
          self.wordSubTitleViewArray[currentIndex-1]?.removeAll()
+    }
+ 
+    func setAtrebuteForLyrics(sender : UILabel , text : String){
+        let strokeTextAttributes = [
+            NSAttributedStringKey.strokeColor : UIColor.black,
+            NSAttributedStringKey.foregroundColor : UIColor.white,
+            NSAttributedStringKey.strokeWidth : -3.0,
+            NSAttributedStringKey.font : UIFont.init(name: "BYekan", size: 18)!
+            ] as [NSAttributedStringKey : Any] as [NSAttributedStringKey : Any]
+        sender.attributedText = NSAttributedString(string: text , attributes: strokeTextAttributes)
+        
+    }
+    
+    func setDirectionForThisLabel(sender : UILabel , direction : LyricsLanguageType ){
+       
+        
+        if direction == .rtl {
+            // rtl
+            sender.contentMode = .right
+            sender.semanticContentAttribute = .forceRightToLeft
+            self.configuration!.topView.contentMode = .right
+             self.configuration!.topView.semanticContentAttribute = .forceRightToLeft
+            
+        }else{
+            // ltr
+            sender.contentMode = .left
+            sender.semanticContentAttribute = .forceLeftToRight
+            self.configuration!.topView.contentMode = .left
+            self.configuration!.topView.semanticContentAttribute = .forceLeftToRight
+        }
+        
+    }
+    func expandViewWithAnimation(sender : UIView , animationTime : TimeInterval , destinationWidth : CGFloat , destinationOriginX : CGFloat){
+  
+        UIView.animate(withDuration: animationTime) {
+            sender.frame.origin.x = destinationOriginX
+            sender.frame.size.width =  destinationWidth
+        }
+       
     }
     
 }

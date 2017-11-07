@@ -36,6 +36,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setStrok()
         lyricsSetup()
         
         // Do any additional setup after loading the view, typically from a nib.
@@ -59,27 +60,16 @@ class ViewController: UIViewController {
         lyrics.configuration!.controller = self
     }
 
-}
-extension UILabel {
-    func boundingRectForCharacterRange(range: NSRange) -> CGRect? {
+    func setStrok(){
         
-        guard let attributedText = attributedText else { return nil }
         
-        let textStorage = NSTextStorage(attributedString: attributedText)
-        let layoutManager = NSLayoutManager()
-        
-        textStorage.addLayoutManager(layoutManager)
-        
-        let textContainer = NSTextContainer(size: bounds.size)
-        textContainer.lineFragmentPadding = 0.0
-        
-        layoutManager.addTextContainer(textContainer)
-        
-        var glyphRange = NSRange()
-        
-        // Convert the range for glyphs.
-        layoutManager.characterRange(forGlyphRange: range, actualGlyphRange: &glyphRange)
-        
-        return layoutManager.boundingRect(forGlyphRange: glyphRange, in: textContainer)
+        let strokeTextAttributes = [
+            NSAttributedStringKey.strokeColor : UIColor.green,
+            NSAttributedStringKey.foregroundColor : UIColor.black,
+            NSAttributedStringKey.strokeWidth : -3.0,
+            NSAttributedStringKey.font : UIFont.init(name: "BYekan", size: 18)!
+            ] as [NSAttributedStringKey : Any] as [NSAttributedStringKey : Any]
+        self.lblTop.attributedText = NSAttributedString(string: "salam" , attributes: strokeTextAttributes)
     }
 }
+
