@@ -12,12 +12,8 @@ enum LyricsLocation {
     case bottom
 }
 class LyricsStatus {
-    
-
-    
-    var isToFilled : Bool = false
-    var isBottomFilled : Bool = false
-    var lastLocation : LyricsLocation?
+    var lastSentenceLocation : LyricsLocation?
+    var lastWordLocation : LyricsLocation?
     var lastLyrics : (sentenceID : Int , direction : LyricsLocation) = (sentenceID : -1 , direction : .top)
     
 }

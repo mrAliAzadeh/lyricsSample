@@ -1,7 +1,7 @@
 
 [{
  "title": "پوست تنش تابستون",
- "DisplayStartTime": 30000,
+ "DisplayStartTime": 0,
  "DisplayEndTime": 33000,
   "direction" : "RTL",
  "index" : 0 ,
@@ -31,7 +31,7 @@
  }, {
  "title": "لباش گلای گلدون",
  "index" : 1 ,
- "DisplayStartTime": 33050,
+ "DisplayStartTime": 1000,
  "DisplayEndTime": 36050,
   "direction" : "RTL",
  "HighlighOffsetsTiming": [{
