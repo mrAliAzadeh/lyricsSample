@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var lblTimer: UILabel!
     @IBAction func btnStartClicked(_ sender: UIButton) {
-        
+//
         let player = AVPlayer.init(url: Bundle.main.url(forResource: "video", withExtension: "m4v")!)
         let playerLayer = AVPlayerLayer.init(player: player)
         playerLayer.frame = self.playerView.bounds
@@ -29,8 +29,11 @@ class ViewController: UIViewController {
     
         lyrics.startShowing()
         self.lblTop.sizeToFit()
+        self.lblBottom.sizeToFit()
         self.lblTop.frame.origin.x = (self.topView.bounds.size.width - self.lblTop.bounds.size.width)/2
         self.lblTop.frame.size.height = self.topView.bounds.size.height
+        self.lblBottom.frame.origin.x = (self.bottomView.bounds.size.width - self.lblBottom.bounds.size.width)/2
+        self.lblBottom.frame.size.height = self.bottomView.bounds.size.height
     }
     var lyrics = Lyrics()
     

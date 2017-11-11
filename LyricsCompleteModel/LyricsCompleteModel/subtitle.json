@@ -1,110 +1,109 @@
-
-[{
- "title": "پوست تنش تابستون",
- "DisplayStartTime": 0,
- "DisplayEndTime": 33000,
+ [{
+  "title": "پوست تنش تابستون",
+  "DisplayStartTime": 0,
+  "DisplayEndTime": 33000,
   "direction" : "RTL",
- "index" : 0 ,
- "HighlighOffsetsTiming": [{
-                           "startTime": 30000,
-                           "rate": 1000 ,
-                           "biginnerCharIndex" : 0 ,
-                           "endCharIndex" : 4 ,
-                           "index" : 0 
-                           
-                           },
-                           {
-                           "startTime": 31000,
-                           "rate": 1000 ,
-                           "biginnerCharIndex" : 5 ,
-                           "endCharIndex" : 8 ,
-                           "index" : 1
-                           },
-                           {
-                           "startTime": 32000,
-                           "rate": 1000 ,
-                           "biginnerCharIndex" : 9 ,
-                           "endCharIndex" : 16 ,
-                           "index" : 2
-                           }
-                           ]
- }, {
- "title": "لباش گلای گلدون",
- "index" : 1 ,
- "DisplayStartTime": 1000,
- "DisplayEndTime": 36050,
+  "index" : 0 ,
+  "HighlighOffsetsTiming": [{
+                            "startTime": 30000,
+                            "rate": 1000 ,
+                            "biginnerCharIndex" : 0 ,
+                            "endCharIndex" : 4 ,
+                            "index" : 0
+                            
+                            },
+                            {
+                            "startTime": 31000,
+                            "rate": 1000 ,
+                            "biginnerCharIndex" : 5 ,
+                            "endCharIndex" : 8 ,
+                            "index" : 1
+                            },
+                            {
+                            "startTime": 32000,
+                            "rate": 1000 ,
+                            "biginnerCharIndex" : 9 ,
+                            "endCharIndex" : 16 ,
+                            "index" : 2
+                            }
+                            ]
+  }, {
+  "title": "لباش گلای گلدون",
+  "index" : 1 ,
+  "DisplayStartTime": 1000,
+  "DisplayEndTime": 36050,
   "direction" : "RTL",
- "HighlighOffsetsTiming": [{
-                           "startTime": 33050,
-                           "rate": 1000 ,
-                           "biginnerCharIndex" : 0 ,
-                           "endCharIndex" : 4 ,
-                           "index" : 0
-                           },
-                           {
-                           "startTime": 34050,
-                           "rate": 1000 ,
-                           "biginnerCharIndex" : 5 ,
-                           "endCharIndex" : 9 ,
-                           "index" : 1
-                           },
-                           {
-                           "startTime": 35050,
-                           "rate": 1000,
-                           "biginnerCharIndex" : 10 ,
-                           "endCharIndex" : 15 , 
-                           "index" : 2
-                           }
-                           ]
- },
- {
- "title": "چشاش شبای یلدا",
- "index" : 2 ,
- "DisplayStartTime": 36100,
- "DisplayEndTime": 39100,
+  "HighlighOffsetsTiming": [{
+                            "startTime": 33050,
+                            "rate": 1000 ,
+                            "biginnerCharIndex" : 0 ,
+                            "endCharIndex" : 4 ,
+                            "index" : 0
+                            },
+                            {
+                            "startTime": 34050,
+                            "rate": 1000 ,
+                            "biginnerCharIndex" : 5 ,
+                            "endCharIndex" : 9 ,
+                            "index" : 1
+                            },
+                            {
+                            "startTime": 35050,
+                            "rate": 1000,
+                            "biginnerCharIndex" : 10 ,
+                            "endCharIndex" : 15 ,
+                            "index" : 2
+                            }
+                            ]
+  },
+  {
+  "title": "چشاش شبای یلدا",
+  "index" : 2 ,
+  "DisplayStartTime": 36100,
+  "DisplayEndTime": 39100,
   "direction" : "RTL",
- "HighlighOffsetsTiming": [{
-                           "startTime": 36100,
-                           "rate": 1000 ,
-                           "biginnerCharIndex" : 0 ,
-                           "endCharIndex" : 4 ,
-                           "index" : 0
-                           },
-                           {
-                           "startTime": 37100,
-                           "rate": 1000 ,
-                           "biginnerCharIndex" : 5 ,
-                           "endCharIndex" : 9 ,
-                           "index" : 1
-                           },
-                           {
-                           "startTime": 38100,
-                           "rate": 1000,
-                           "biginnerCharIndex" : 10 ,
-                           "endCharIndex" : 15 ,
-                           "index" : 2
-                           }
-                           ]
- }, {
- "title": "سیاهی شبستون" ,
- "index" : 3 ,
- "DisplayStartTime": 39150,
- "DisplayEndTime": 42150,
- "direction" : "RTL",
- "HighlighOffsetsTiming": [{
-                           "startTime": 33050,
-                           "rate": 1000 ,
-                           "biginnerCharIndex" : 0 ,
-                           "endCharIndex" : 5 ,
-                           "index" : 0
-                           },
-                           {
-                           "startTime": 34050,
-                           "rate": 1000 ,
-                           "biginnerCharIndex" : 6 ,
-                           "endCharIndex" : 12 ,
-                           "index" : 1
-                           }
-                           
-                           ]
- }]
+  "HighlighOffsetsTiming": [{
+                            "startTime": 36100,
+                            "rate": 1000 ,
+                            "biginnerCharIndex" : 0 ,
+                            "endCharIndex" : 4 ,
+                            "index" : 0
+                            },
+                            {
+                            "startTime": 37100,
+                            "rate": 1000 ,
+                            "biginnerCharIndex" : 5 ,
+                            "endCharIndex" : 9 ,
+                            "index" : 1
+                            },
+                            {
+                            "startTime": 38100,
+                            "rate": 1000,
+                            "biginnerCharIndex" : 10 ,
+                            "endCharIndex" : 15 ,
+                            "index" : 2
+                            }
+                            ]
+  }, {
+  "title": "سیاهی شبستون" ,
+  "index" : 3 ,
+  "DisplayStartTime": 39150,
+  "DisplayEndTime": 42150,
+  "direction" : "RTL",
+  "HighlighOffsetsTiming": [{
+                            "startTime": 33050,
+                            "rate": 1000 ,
+                            "biginnerCharIndex" : 0 ,
+                            "endCharIndex" : 5 ,
+                            "index" : 0
+                            },
+                            {
+                            "startTime": 34050,
+                            "rate": 1000 ,
+                            "biginnerCharIndex" : 6 ,
+                            "endCharIndex" : 12 ,
+                            "index" : 1
+                            }
+                            
+                            ]
+  }]

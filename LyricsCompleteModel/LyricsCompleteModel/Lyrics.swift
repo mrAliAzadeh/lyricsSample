@@ -33,219 +33,137 @@ class Lyrics {
         })
     }
     
-    @objc func timerLoop(){
-      
-        let filterdArray =   content?.subTitleArray.filter { (model) -> Bool in
-       
-            return ( model.startTime! / 1000 <= counter * self.configuration!.timerRateCheckingJSON &&  model.endTime! / 1000 >= counter * self.configuration!.timerRateCheckingJSON )
+    //MARK:- get sentences that does not show yet
+    func getSentenceDoesNotShowYet()->LyricsSubtitleModel?{
+     let filterdSentencArrayNotShowingYet = content?.subTitleArray.filter { (model) -> Bool in
+            
+            return ( model.startTime! / 1000 <= counter * self.configuration!.timerRateCheckingJSON &&  model.endTime! / 1000 >= counter * self.configuration!.timerRateCheckingJSON  && !model.isShown)
         }
+        return filterdSentencArrayNotShowingYet?.last
+    }
+    //MARK:- get sentences that does  show before
+    func getSentenceDoseShowBefore()->LyricsSubtitleModel?{
         
-        if filterdArray != nil ,  filterdArray!.count >= 1 && filterdArray!.first!.startTime! >= Double(1000) {
-         print("salam")
+        let filterdSentencArrayDoesShowingBefore = content?.subTitleArray.filter { (model) -> Bool in
+            
+            return ( model.startTime! / 1000 <= counter * self.configuration!.timerRateCheckingJSON &&  model.endTime! / 1000 >= counter * self.configuration!.timerRateCheckingJSON  && model.isShown)
         }
+        return filterdSentencArrayDoesShowingBefore?.first
         
-        
-        
-        if filterdArray!.count >= 1  {
-            // this part has subtitle
-            // chekck does it have word or not ?
-        
-            var currentLyricsWordLocation : LyricsLocation = .bottom
-            var currentLyricsSentenceLocation : LyricsLocation = .bottom
-            
-            if self.configuration!.status.lastSentenceLocation != nil {
-                currentLyricsSentenceLocation = self.configuration!.status.lastSentenceLocation!
-            }
-            
-            if self.configuration!.status.lastWordLocation != nil {
-                currentLyricsWordLocation = self.configuration!.status.lastWordLocation!
-            }
-   
-            var sentenceIndex = filterdArray!.last!.index!
-            
-            if sentenceIndex == 1 {
-                print("hi")
-            }
-   
-            var insideFilerArray =  [LyricsSubtitleDetailModelModel]()
-            
-            if filterdArray?.count == 1 {
-                
-            }else{
-                var isInFirstSentence : Bool = false
-                for item in 0...1 {
-                    
-                    if item == 0 {
-                        // check aya dar in range ast
-                        // this section is not completed
-//                        filterdArray![item].detail.contains(where: { (obj) -> Bool in
-//
-//                            return obj.
-//                        })
-                          sentenceIndex = filterdArray!.first!.index!
-                    }else{
-                        // check aya dar in range ast ya khier
-                          sentenceIndex = filterdArray!.last!.index!
-                    }
-                    
-                }
-            }
-            
-            
-         
-            
-            insideFilerArray = self.content!.subTitleArray[sentenceIndex].detail.filter { (item) -> Bool in
-                
-                let c1 = item.startTime! / 1000 <= counter * self.configuration!.timerRateCheckingJSON
-                let c2 = (item.startTime! / 1000 + item.duration! / 1000) >= counter * self.configuration!.timerRateCheckingJSON
-                
-                if c1 == true , c2 == true {
-                    return true
-                }else{
-                    return false
-                }
-            }
-            
-            if counter >= 150 {
-                print("indx is : \(sentenceIndex)")
-            }
-            
-            if !self.content!.subTitleArray[sentenceIndex].isShown {
-                
-                self.content!.subTitleArray[sentenceIndex].isShown = true
-               
-                // this is first time show sentence
-                
-                // ***
-                if self.configuration!.status.lastSentenceLocation == nil {
-                    print("B position")
-                    // this is first block of word in sentenc
-                    self.setTextForBottomLabel(text : self.content!.subTitleArray[sentenceIndex].title!)
-                    self.configuration!.status.lastSentenceLocation = .bottom
-                    //currentLyricsSentenceLocation = .bottom
-                    
-                }else{
-                    // this is not first block of word in sentece
-                    print("C position")
-                    if self.configuration!.status.lastSentenceLocation! == .top {
-                         self.setTextForBottomLabel(text: self.content!.subTitleArray[sentenceIndex].title!)
-                        self.configuration!.status.lastSentenceLocation = .bottom
-                        //currentLyricsSentenceLocation = .bottom
-                        
-                     
-                    }else{
-                        print("D position")
-                         self.setTextForTopLabel(text: self.content!.subTitleArray[sentenceIndex].title!)
-                        self.configuration!.status.lastSentenceLocation = .top
-                        //currentLyricsSentenceLocation = .top
-                    }
-                    
-                }
-                // ***
-                
-            }else{
-                // this is second or more time that show the sentence
-            }
-            
-            if insideFilerArray.count >= 1 {
-                //it should be shows words with animation
-                print("it has animation word")
-                  let wordIndex = insideFilerArray.last!.index
-                  var isLastWordInSentence = false
-                
-                
-                if wordIndex != nil , self.content!.subTitleArray[sentenceIndex].detail.count-1 == wordIndex! {
-                    isLastWordInSentence = true
-                }
-                
-                if self.configuration!.status.lastWordLocation == nil {
-                    print("B position")
-                    // this is first block of word in sentenc
-                    //->self.setTextForBottomLabel(text : filterdArray!.first!.title!)
-                    if wordIndex! == 0 {
-                        print("K position")
-                        currentLyricsWordLocation = .bottom
-                    }
-                    
-                }else{
-                    // this is not first block of word in sentece
-                    print("C position")
-                    if self.configuration!.status.lastWordLocation! == .top {
-                       //-> self.setTextForBottomLabel(text: filterdArray!.first!.title!)
-                        if wordIndex! == 0 {
-                            print("sx position")
-                            currentLyricsWordLocation = .bottom}
-                        
-                        
-                    }else{
-                        print("D position")
-                      //->  self.setTextForTopLabel(text: filterdArray!.first!.title!)
-                        if  wordIndex! == 0 {
-                            print("FX position")
-                            currentLyricsWordLocation = .top}
-                        
-                        
-                    }
-                    
-                }
-                
-                if  !self.content!.subTitleArray[sentenceIndex].detail[wordIndex!].isShown {
-                    // this is first time for show word
-                    removeFromWordSubTitleViewArray(currentIndex: sentenceIndex)
-                    self.content!.subTitleArray[sentenceIndex].detail[wordIndex!].isShown = true
-                    let thisSentence = self.content!.subTitleArray[sentenceIndex].title!
-                    
-                    let allContrentArray = thisSentence.components(separatedBy: " ")
-                    var thisWord = allContrentArray[wordIndex!]
-                    
-                    if self.content!.subTitleArray[sentenceIndex].direction == .rtl {
-                        // persian
-                        if wordIndex != 0 {thisWord.append(" ")}
-                    }else{
-                        // english
-                        if wordIndex! != self.content!.subTitleArray[sentenceIndex].detail.count - 1 {
-                            thisWord.append(" ")
-                        }
-                    }
-                    
-                    let direction = self.content!.subTitleArray[sentenceIndex].direction
-                    let animationTime = self.content!.subTitleArray[sentenceIndex].detail[wordIndex!].duration! / 1000
-           
-                    var isFirstWord = false
-                    if wordIndex! == 0 {
-                        isFirstWord = true
-                    }
-                    play(thisWordShownigWord: thisWord, sentenceIndex: sentenceIndex, isLastWordInSentec: isLastWordInSentence, isFirstWordInSentence: isFirstWord, durationAnimation: animationTime, direction: direction, lyricsWordLocation: currentLyricsWordLocation)
-                    
-                    
-                }else{
-                    // this is second or more than to show
-                }
-                
-            }else{
-                // it should just show the all text of sentence no animation word filling
-                print("it does not have animation word")
-            }
-            
-          
-     
-          
-       
-   
-           
-
-        }
     }
     
-    func play(thisWordShownigWord : String , sentenceIndex sentencID : Int , isLastWordInSentec : Bool  , isFirstWordInSentence : Bool , durationAnimation : TimeInterval , direction : LyricsLanguageType , lyricsWordLocation : LyricsLocation){
+    //MARK:- get this word
+    func getThisWord(sentence : LyricsSubtitleModel ) -> LyricsSubtitleDetailModelModel?{
         
         
+        let filterdWordArray = sentence.detail.filter { (word) -> Bool in
+            
+            let c1 = word.startTime! / 1000 <= counter * self.configuration!.timerRateCheckingJSON
+            let c2 = (word.startTime! / 1000 + word.duration! / 1000) >= counter * self.configuration!.timerRateCheckingJSON
+            
+            if c1 == true , c2 == true , !word.isShown {
+                return true
+            }else{
+                return false
+            }
         
+        }
+         return filterdWordArray.last
+    }
+    
+    @objc func timerLoop(){
+      
+        
+       let newSentence = getSentenceDoesNotShowYet()
+        let oldSentence = getSentenceDoseShowBefore()
+        // new sentence should be write in top label or bottom label
+        // old sentence should start animation
+        
+        if let newSentence = newSentence {
+            // write sentence
+            newSentence.isShown = true
+            if self.configuration!.status.lastSentenceLocation != nil {
+                if self.configuration!.status.lastSentenceLocation! == .bottom {
+                    newSentence.location = .top
+                }else{
+                    newSentence.location = .bottom
+                }
+            }
+            
+            self.configuration!.status.lastSentenceLocation = newSentence.location
+            writeSentence(text: newSentence.title!, location: newSentence.location)
+            
+        }
+        
+        
+        if let oldSentence = oldSentence {
+
+            
+            
+            if let thisWord = getThisWord(sentence: oldSentence) {
+             
+               
+                
+                   var wordContent =  oldSentence.title!.components(separatedBy: " ")[thisWord.index!]
+                
+            
+                 let direction = oldSentence.direction
+                
+                var isFirstWord = false
+                var isLastWord = false
+                if thisWord.index == 0 {
+                    isFirstWord = true
+                }
+                
+                if thisWord.index! == oldSentence.detail.count - 1 {
+                    isLastWord = true
+                }
+                
+         
+                wordContent =  addSpaceIfNeeded(text: wordContent, direction: direction, isFirstWod: isFirstWord, isLastWord: isLastWord)
+                
+                removeFromWordSubTitleViewArray(currentSentenceIndex: oldSentence.index!)
+                thisWord.isShown = true
+                   let animationTime = thisWord.duration! / 1000
+               
+                let location = oldSentence.location
+                play(thisWordShownigWord: wordContent, sentenceIndex: oldSentence.index!, durationAnimation: animationTime, direction: direction, lyricsWordLocation: location)
+
+            }
+        }
+        
+        
+  
+        // ********************
+        
+  
+    // *****************
+    }
+    
+    func addSpaceIfNeeded(text : String , direction : LyricsLanguageType , isFirstWod : Bool , isLastWord : Bool )->String{
+        var result = text
+        if direction == .rtl {
+            // persian
+            if !isFirstWod {result.append(" ")}
+        }else{
+            // english
+            if !isLastWord {
+                result.append(" ")
+            }
+        }
+        return result
+    }
+    
+    
+    func play(thisWordShownigWord : String , sentenceIndex sentencID : Int , durationAnimation : TimeInterval , direction : LyricsLanguageType , lyricsWordLocation : LyricsLocation){
+    
         let thisLable = UILabel.init()
         
         let contentString = thisWordShownigWord
    
         thisLable.text = contentString
+       
+        // bayad dorostesh konam ->
         
         if lyricsWordLocation == .top {
               thisLable.font = self.configuration!.topLabel.font
@@ -255,11 +173,10 @@ class Lyrics {
         
       
         // inja should check better
-         setAtrebuteForLyrics(sender: thisLable, text: contentString)
+        setAtrebuteForLyrics(sender: thisLable, text: contentString)
          thisLable.sizeToFit()
        setDirectionForThisLabel(sender: thisLable, direction: direction)
-        
-        
+    
         if lyricsWordLocation == .top {
             thisLable.frame.size.height = self.configuration!.topLabel.frame.size.height
             thisLable.frame.origin.y = self.configuration!.topLabel.frame.origin.y
@@ -268,30 +185,13 @@ class Lyrics {
             thisLable.frame.origin.y = self.configuration!.bottomLabel.frame.origin.y
         }
      
-        var allSubTitleViewsInTopView = [UIView]()
-        var allSubTitleViewsInBottomView = [UIView]()
-        
-        for view in self.configuration!.topView.subviews where view.tag != 999 {
-            // for each view in top view insted of topLabel in configuration
-            // 999 tag is for lblTop in viewController (main label)
-            allSubTitleViewsInTopView.append(view)
-        }
-        
-        for view in self.configuration!.bottomView.subviews where view.tag != 888 {
-            // for each view in top view insted of topLabel in configuration
-            // 888 tag is for lblBottom in viewcontroller (main label)
-            allSubTitleViewsInBottomView.append(view)
-        }
-  
-        allSubTitleViewsInTopView.sort { (view1, view2) -> Bool in
-            return view1.frame.origin.x > view2.frame.origin.x
-        }
-        allSubTitleViewsInBottomView.sort { (view1, view2) -> Bool in
-            return view1.frame.origin.x > view2.frame.origin.x
-        }
-        
+        let allSubTitleViewsInTopView = getAllViewsInTopViewWithOriginXOrder()
+        let allSubTitleViewsInBottomView = getAllViewsInBottomViewWithOriginXOrder()
+      
         var destinationWidth = CGFloat(0)
         var destinationOriginX = CGFloat(0)
+        
+
         
         if direction == .rtl {
             
@@ -369,10 +269,10 @@ class Lyrics {
 
         if lyricsWordLocation == .top {
             self.configuration!.topView.addSubview(thisLable)
-            if isFirstWordInSentence {self.configuration!.status.lastWordLocation = .top}
+            //#->  if isFirstWordInSentence {self.configuration!.status.lastWordLocation = .top}
         }else{
             self.configuration!.bottomView.addSubview(thisLable)
-            if isFirstWordInSentence {self.configuration!.status.lastWordLocation = .bottom}
+            //#-> if isFirstWordInSentence {self.configuration!.status.lastWordLocation = .bottom}
         }
         
         
@@ -397,15 +297,15 @@ class Lyrics {
             
         }    
     }
-   private func removeFromWordSubTitleViewArray(currentIndex : Int){
+   private func removeFromWordSubTitleViewArray(currentSentenceIndex : Int){
         
-        if let labelArray = self.wordSubTitleViewArray[currentIndex-1] {
+        if let labelArray = self.wordSubTitleViewArray[currentSentenceIndex-1] {
             for item in labelArray {
                 item.removeFromSuperview()
             }
         }
 
-         self.wordSubTitleViewArray[currentIndex-1]?.removeAll()
+         self.wordSubTitleViewArray[currentSentenceIndex-1]?.removeAll()
     }
  
    private func setAtrebuteForLyrics(sender : UILabel , text : String){
@@ -416,7 +316,7 @@ class Lyrics {
             NSAttributedStringKey.font : UIFont.init(name: "BYekan", size: 18)!
             ] as [NSAttributedStringKey : Any] as [NSAttributedStringKey : Any]
         sender.attributedText = NSAttributedString(string: text , attributes: strokeTextAttributes)
-        
+
     }
     
    private func setDirectionForThisLabel(sender : UILabel , direction : LyricsLanguageType ){
@@ -438,14 +338,7 @@ class Lyrics {
         }
         
     }
-   private func expandViewWithAnimation(sender : UIView , animationTime : TimeInterval , destinationWidth : CGFloat , destinationOriginX : CGFloat){
   
-        UIView.animate(withDuration: animationTime) {
-            sender.frame.origin.x = destinationOriginX
-            sender.frame.size.width =  destinationWidth
-        }
-       
-    }
     
     
     private func writeNewSentence(blocks : [(content : String , position : LyricsLocation)]){
@@ -466,28 +359,89 @@ class Lyrics {
         
     }
     
+    private func getAllInsideWordInSentenc(){
+        
+    }
+    
+    
+    //MARK:- get all view in top view
+    
+    private func getAllViewsInTopViewWithOriginXOrder() -> [UIView] {
+        
+        var allSubTitleViewsInTopView = [UIView]()
+       
+        
+        for view in self.configuration!.topView.subviews where view.tag != 999 {
+            // for each view in top view insted of topLabel in configuration
+            // 999 tag is for lblTop in viewController (main label)
+            allSubTitleViewsInTopView.append(view)
+        }
+        
+        allSubTitleViewsInTopView.sort { (view1, view2) -> Bool in
+            return view1.frame.origin.x > view2.frame.origin.x
+        }
+        
+        
+      return allSubTitleViewsInTopView
+        
+    }
+    
+    
+    //MAEK:- get all views in bottom view
+    
+    private func getAllViewsInBottomViewWithOriginXOrder() -> [UIView] {
+         var allSubTitleViewsInBottomView = [UIView]()
+        for view in self.configuration!.bottomView.subviews where view.tag != 888 {
+            // for each view in top view insted of topLabel in configuration
+            // 888 tag is for lblBottom in viewcontroller (main label)
+            allSubTitleViewsInBottomView.append(view)
+        }
+        allSubTitleViewsInBottomView.sort { (view1, view2) -> Bool in
+            return view1.frame.origin.x > view2.frame.origin.x
+        }
+     return allSubTitleViewsInBottomView
+    }
+    
+    //MARK:- set frame for word lyrics
+    private func setFrameForWord(direction : LyricsLanguageType , location : LyricsLocation , allViewsInTopView : [UIView] , allViewsInBottomView : [UIView] , sender : UILabel){
+        
+        
+    }
+    //MARK:- writeSentece
+    
+    private func writeSentence(text : String , location : LyricsLocation){
+        
+        if location == .top {
+            setTextForTopLabel(text: text)
+        }else{
+            setTextForBottomLabel(text: text)
+        }
+    }
+    
+    //MARK:- write sentence in Top
     private func setTextForTopLabel(text : String){
-
-
         self.configuration?.topLabel.text = text
         self.configuration!.topLabel.sizeToFit()
         self.configuration!.topLabel.frame.origin.x = (self.configuration!.topView.bounds.size.width - configuration!.topLabel.frame.size.width) / 2
         self.configuration?.topLabel.frame.size.height = self.configuration!.topView.bounds.size.height
-
-        
     }
+    //MARK:- write sentence in bottom
     private func setTextForBottomLabel(text : String){
         
-        
-      
         self.configuration?.bottomLabel.text = text
         self.configuration!.bottomLabel.sizeToFit()
         self.configuration!.bottomLabel.frame.origin.x = (self.configuration!.bottomView.bounds.size.width - configuration!.bottomLabel.frame.size.width) / 2
         self.configuration?.bottomLabel.frame.size.height = self.configuration!.bottomView.bounds.size.height
-
-
     }
-     private func eriteJustSentecWithoutAnimation(content : String , direction : LyricsLanguageType){
+     private func writeSentenceWithoutAnimation(content : String , direction : LyricsLanguageType){
+        
+    }
+    private func expandViewWithAnimation(sender : UIView , animationTime : TimeInterval , destinationWidth : CGFloat , destinationOriginX : CGFloat){
+        
+        UIView.animate(withDuration: animationTime) {
+            sender.frame.origin.x = destinationOriginX
+            sender.frame.size.width =  destinationWidth
+        }
         
     }
 }

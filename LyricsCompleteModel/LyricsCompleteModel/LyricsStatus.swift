@@ -13,7 +13,6 @@ enum LyricsLocation {
 }
 class LyricsStatus {
     var lastSentenceLocation : LyricsLocation?
-    var lastWordLocation : LyricsLocation?
-    var lastLyrics : (sentenceID : Int , direction : LyricsLocation) = (sentenceID : -1 , direction : .top)
+   // var lastLyrics : (sentenceID : Int , direction : LyricsLocation) = (sentenceID : -1 , direction : .top)
     
 }

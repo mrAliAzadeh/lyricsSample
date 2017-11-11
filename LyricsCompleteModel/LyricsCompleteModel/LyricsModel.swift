@@ -26,6 +26,7 @@ class LyricsSubtitleModel{
     var index : Int?
     var direction : LyricsLanguageType = .rtl
    var isShown = false
+    var location : LyricsLocation = .bottom
    
 }
 class LyricsSubtitleDetailModelModel{
