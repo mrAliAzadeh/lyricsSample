@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532169728.871343"
+            timestampString = "532187472.441746"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "212"
-            endingLineNumber = "212"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
             landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:isLastWordInSentenc:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532169728.871769"
+            timestampString = "532187472.442502"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "230"
-            endingLineNumber = "230"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
             landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:isLastWordInSentenc:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532169728.872089"
+            timestampString = "532187472.4431"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "218"
-            endingLineNumber = "218"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
             landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:isLastWordInSentenc:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532169728.87239"
+            timestampString = "532187472.443682"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "211"
-            endingLineNumber = "211"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
             landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:isLastWordInSentenc:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532169728.872689"
+            timestampString = "532187472.444256"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "286"
-            endingLineNumber = "286"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
             landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:isLastWordInSentenc:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532169728.87299"
+            timestampString = "532187472.44484"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "179"
-            endingLineNumber = "179"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
             landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:isLastWordInSentenc:)"
             landmarkType = "7">
          </BreakpointContent>

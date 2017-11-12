@@ -20,6 +20,7 @@
 		439217BC1FA9CA7100C65791 /* video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 439217BB1FA9C9DF00C65791 /* video.m4v */; };
 		439218431FB036A000C65791 /* Yekan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 439218421FB0369C00C65791 /* Yekan.ttf */; };
 		4392189F1FB1A54500C65791 /* LyricsStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392189E1FB1A54500C65791 /* LyricsStatus.swift */; };
+		439218E61FB85A5E00C65791 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 439218E51FB859DE00C65791 /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		439217BB1FA9C9DF00C65791 /* video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.m4v; sourceTree = "<group>"; };
 		439218421FB0369C00C65791 /* Yekan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yekan.ttf; sourceTree = "<group>"; };
 		4392189E1FB1A54500C65791 /* LyricsStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsStatus.swift; sourceTree = "<group>"; };
+		439218E51FB859DE00C65791 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		4392179C1FA99C8700C65791 /* LyricsCompleteModel */ = {
 			isa = PBXGroup;
 			children = (
+				439218E51FB859DE00C65791 /* music.mp3 */,
 				439217B71FA9B18A00C65791 /* subtitle.json */,
 				439217BB1FA9C9DF00C65791 /* video.m4v */,
 				439218421FB0369C00C65791 /* Yekan.ttf */,
@@ -152,6 +155,7 @@
 				439217B81FA9B19900C65791 /* subtitle.json in Resources */,
 				439217A51FA99C8700C65791 /* Assets.xcassets in Resources */,
 				439217A31FA99C8700C65791 /* Main.storyboard in Resources */,
+				439218E61FB85A5E00C65791 /* music.mp3 in Resources */,
 				439217BC1FA9CA7100C65791 /* video.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

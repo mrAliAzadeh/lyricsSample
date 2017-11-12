@@ -9,6 +9,7 @@
 import UIKit
 import AVFoundation
 import AVKit
+var musicPlayer: AVAudioPlayer?
 class ViewController: UIViewController {
     @IBOutlet weak var lblBottom: UILabel!
     @IBOutlet weak var lblTop: UILabel!
@@ -26,7 +27,7 @@ class ViewController: UIViewController {
         playerLayer.frame = self.playerView.bounds
         self.playerView.layer.addSublayer(playerLayer)
         player.play()
-    
+        playSound()
         lyrics.startShowing()
         self.lblTop.sizeToFit()
         self.lblBottom.sizeToFit()
@@ -74,5 +75,30 @@ class ViewController: UIViewController {
         self.lblTop.attributedText = NSAttributedString(string: "salam" , attributes: strokeTextAttributes)
          self.lblBottom.attributedText = NSAttributedString(string: "salam" , attributes: strokeTextAttributes)
     }
+    
+    func playSound() {
+        guard let url = Bundle.main.url(forResource: "music", withExtension: "mp3") else { return }
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setActive(true)
+            
+            
+            
+            /* The following line is required for the player to work on iOS 11. Change the file type accordingly*/
+            musicPlayer = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+            
+            /* iOS 10 and earlier require the following line:
+             player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3) */
+            
+            guard let player = musicPlayer else { return }
+            
+            player.play()
+            
+        } catch let error {
+            print(error.localizedDescription)
+        }
+    }
+    
 }
 

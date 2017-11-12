@@ -1,568 +1,493 @@
 [
  {
- "title": "به چی داری زل میزنی وقتی",
- "DisplayStartTime": 8200,
- "DisplayEndTime": 11000,
+ "title": "پوست تنش تابستون" ,
+ "DisplayStartTime": 30500,
+ "DisplayEndTime": 33000,
  "direction" : "RTL",
  "index" : 0 ,
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 8200,
-  "rate": 466.6666666666667 ,
+  "startTime": 30500,
+  "rate": 700 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 2 ,
+  "endCharIndex" : 4 ,
   "index" : 0
   },
   {
-  "startTime": 8666.666666666666,
-  "rate": 466.6666666666667 ,
-  "biginnerCharIndex" : 3 ,
-  "endCharIndex" : 5 ,
+  "startTime": 31200,
+  "rate": 800 ,
+  "biginnerCharIndex" : 5 ,
+  "endCharIndex" : 9 ,
   "index" : 1
   },
   {
-  "startTime": 9133.333333333334,
-  "rate": 466.6666666666667 ,
-  "biginnerCharIndex" : 6 ,
-  "endCharIndex" : 10 ,
+  "startTime": 32000,
+  "rate": 800  ,
+  "biginnerCharIndex" : 10 ,
+  "endCharIndex" : 15 ,
   "index" : 2
-  },
-  {
-  "startTime": 9600,
-  "rate": 466.6666666666667 ,
-  "biginnerCharIndex" : 11 ,
-  "endCharIndex" : 13 ,
-  "index" : 3
-  },
-  {
-  "startTime": 10066.666666666666,
-  "rate": 466.6666666666667 ,
-  "biginnerCharIndex" : 14 ,
-  "endCharIndex" : 19 ,
-  "index" : 4
-  },
-  {
-  "startTime": 10533.333333333334,
-  "rate": 466.6666666666667 ,
-  "biginnerCharIndex" : 20 ,
-  "endCharIndex" : 24 ,
-  "index" : 5
   }
   ]
  },
  {
- "title": "چیزی برا دیدن نیست",
- "DisplayStartTime": 11000,
- "DisplayEndTime": 13300,
+ "title": "لباش گلاي گلدون" ,
+ "DisplayStartTime": 33000,
+ "DisplayEndTime": 36000,
  "direction" : "RTL",
  "index" : 1 ,
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 11000,
-  "rate": 575 ,
+  "startTime": 33000,
+  "rate": 900 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 4 ,
   "index" : 0
   },
   {
-  "startTime": 11575,
-  "rate": 575 ,
+  "startTime": 34000,
+  "rate": 900 ,
   "biginnerCharIndex" : 5 ,
-  "endCharIndex" : 8 ,
+  "endCharIndex" : 9 ,
   "index" : 1
   },
   {
-  "startTime": 12150,
-  "rate": 575 ,
-  "biginnerCharIndex" : 9 ,
-  "endCharIndex" : 13 ,
+  "startTime": 35000,
+  "rate": 1000 ,
+  "biginnerCharIndex" : 10 ,
+  "endCharIndex" : 15 ,
   "index" : 2
-  },
-  {
-  "startTime": 12725,
-  "rate": 575 ,
-  "biginnerCharIndex" : 14 ,
-  "endCharIndex" : 18 ,
-  "index" : 3
   }
+
   ]
  },
  {
- "title": "به چی داری فکر میکنی وقتی",
- "DisplayStartTime": 15600,
- "DisplayEndTime": 18200,
+ "title": "چشاش شباي يلدا" ,
+ "DisplayStartTime": 36000,
+ "DisplayEndTime": 37900,
  "direction" : "RTL",
  "index" : 2 ,
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 15600,
-  "rate": 433.3333333333333 ,
-  "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 2 ,
-  "index" : 0
-  },
-  {
-  "startTime": 16033.333333333334,
-  "rate": 433.3333333333333 ,
-  "biginnerCharIndex" : 3 ,
-  "endCharIndex" : 5 ,
-  "index" : 1
-  },
-  {
-  "startTime": 16466.666666666668,
-  "rate": 433.3333333333333 ,
-  "biginnerCharIndex" : 6 ,
-  "endCharIndex" : 10 ,
-  "index" : 2
-  },
-  {
-  "startTime": 16900,
-  "rate": 433.3333333333333 ,
-  "biginnerCharIndex" : 11 ,
-  "endCharIndex" : 14 ,
-  "index" : 3
-  },
-  {
-  "startTime": 17333.333333333332,
-  "rate": 433.3333333333333 ,
-  "biginnerCharIndex" : 15 ,
-  "endCharIndex" : 20 ,
-  "index" : 4
-  },
-  {
-  "startTime": 17766.666666666668,
-  "rate": 433.3333333333333 ,
-  "biginnerCharIndex" : 21 ,
-  "endCharIndex" : 25 ,
-  "index" : 5
-  }
-  ]
- },
- {
- "title": "چیزی برا گفتن نیست",
- "DisplayStartTime": 18200,
- "DisplayEndTime": 20800,
- "direction" : "RTL",
- "index" : 3 ,
- "HighlighOffsetsTiming":
- [
-  {
-  "startTime": 18200,
-  "rate": 650 ,
+  "startTime": 36000,
+  "rate": 700 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 4 ,
   "index" : 0
   },
   {
-  "startTime": 18850,
-  "rate": 650 ,
+  "startTime": 36800 ,
+  "rate": 600 ,
   "biginnerCharIndex" : 5 ,
-  "endCharIndex" : 8 ,
+  "endCharIndex" : 9 ,
   "index" : 1
   },
   {
-  "startTime": 19500,
-  "rate": 650 ,
-  "biginnerCharIndex" : 9 ,
-  "endCharIndex" : 13 ,
+  "startTime": 37300,
+  "rate": 600 ,
+  "biginnerCharIndex" : 10 ,
+  "endCharIndex" : 14 ,
   "index" : 2
-  },
-  {
-  "startTime": 20150,
-  "rate": 650 ,
-  "biginnerCharIndex" : 14 ,
-  "endCharIndex" : 18 ,
-  "index" : 3
   }
   ]
  },
  {
- "title": "فک کردی شادت کردی",
- "DisplayStartTime": 22500,
- "DisplayEndTime": 26500,
+ "title": "سياهي شبستون" ,
+ "DisplayStartTime": 38000,
+ "DisplayEndTime": 41000,
+ "direction" : "RTL",
+ "index" : 0 ,
+ "HighlighOffsetsTiming":
+ [
+  {
+  "startTime": 38000,
+  "rate": 2000 ,
+  "biginnerCharIndex" : 0 ,
+  "endCharIndex" : 5 ,
+  "index" : 0
+  },
+  {
+  "startTime": 40000,
+  "rate": 1000 ,
+  "biginnerCharIndex" : 6 ,
+  "endCharIndex" : 12 ,
+  "index" : 1
+  }
+  ]
+ },
+ {
+
+ "title": "تو اون نگاه مستش" ,
+ "DisplayStartTime": 41000,
+ "DisplayEndTime": 44000,
  "direction" : "RTL",
  "index" : 4 ,
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 22500,
-  "rate": 1000 ,
+  "startTime": 41000,
+  "rate": 450 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 2 ,
   "index" : 0
   },
   {
-  "startTime": 23500,
-  "rate": 1000 ,
+  "startTime": 41500,
+  "rate": 600 ,
   "biginnerCharIndex" : 3 ,
-  "endCharIndex" : 7 ,
+  "endCharIndex" : 6 ,
   "index" : 1
   },
   {
-  "startTime": 24500,
-  "rate": 1000 ,
-  "biginnerCharIndex" : 8 ,
-  "endCharIndex" : 12 ,
+  "startTime": 42200,
+  "rate": 650 ,
+  "biginnerCharIndex" : 7 ,
+  "endCharIndex" : 11 ,
   "index" : 2
   },
   {
-  "startTime": 25500,
-  "rate": 1000 ,
-  "biginnerCharIndex" : 13 ,
-  "endCharIndex" : 17 ,
+  "startTime": 42900,
+  "rate": 1100 ,
+  "biginnerCharIndex" : 12 ,
+  "endCharIndex" : 16 ,
   "index" : 3
   }
   ]
  },
  {
- "title": "واقعیش برات سخت",
- "DisplayStartTime": 30000,
- "DisplayEndTime": 36800,
+ "title": "تو عاشقها که ويرون" ,
+ "DisplayStartTime": 44000,
+ "DisplayEndTime": 46700,
  "direction" : "RTL",
  "index" : 5 ,
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 30000,
-  "rate": 1000 ,
+  "startTime": 44000,
+  "rate": 300 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 6 ,
+  "endCharIndex" : 2 ,
   "index" : 0
   },
   {
-  "startTime": 31000,
-  "rate": 1000 ,
-  "biginnerCharIndex" : 7 ,
-  "endCharIndex" : 11 ,
+  "startTime": 44300,
+  "rate": 900 ,
+  "biginnerCharIndex" : 3 ,
+  "endCharIndex" : 8 ,
   "index" : 1
   },
   {
-  "startTime": 32000,
-  "rate": 4800 ,
-  "biginnerCharIndex" : 12 ,
-  "endCharIndex" : 15 ,
+  "startTime": 45200,
+  "rate": 250 ,
+  "biginnerCharIndex" : 9 ,
+  "endCharIndex" : 11 ,
   "index" : 2
-  }
+  },
+  {
+    "startTime": 45450,
+    "rate": 1250 ,
+    "biginnerCharIndex" : 12 ,
+    "endCharIndex" : 17 ,
+    "index" : 3
+    }
   ]
  },
  {
- "title": "خوش اومدی جایی که",
- "DisplayStartTime": 41500,
- "DisplayEndTime": 43200,
+ "title": "هزار هزار مثل من" ,
+ "DisplayStartTime": 46700,
+ "DisplayEndTime": 49000,
  "direction" : "RTL",
  "index" : 6 ,
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 41500,
-  "rate": 425 ,
+  "startTime": 46700,
+  "rate": 450 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 3 ,
+  "endCharIndex" : 4 ,
   "index" : 0
   },
   {
-  "startTime": 41925,
-  "rate": 425 ,
-  "biginnerCharIndex" : 4 ,
+  "startTime": 47150,
+  "rate": 450 ,
+  "biginnerCharIndex" : 5 ,
   "endCharIndex" : 9 ,
   "index" : 1
   },
   {
-  "startTime": 42350,
-  "rate": 425 ,
+  "startTime": 47600,
+  "rate": 650 ,
   "biginnerCharIndex" : 10 ,
-  "endCharIndex" : 14 ,
+  "endCharIndex" : 13 ,
   "index" : 2
   },
   {
-  "startTime": 42775,
-  "rate": 425 ,
-  "biginnerCharIndex" : 15 ,
-  "endCharIndex" : 17 ,
+  "startTime": 48250,
+  "rate": 750 ,
+  "biginnerCharIndex" : 14 ,
+  "endCharIndex" : 16 ,
   "index" : 3
   }
   ]
  },
  {
- "title": "رسیدی",
- "DisplayStartTime": 45100,
- "DisplayEndTime": 47400,
+ "title": "در به درو پريشون" ,
+ "DisplayStartTime": 49100,
+ "DisplayEndTime": 51000 ,
  "direction" : "RTL",
  "index" : 7 ,
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 45100,
-  "rate": 2300 ,
+  "startTime": 49100,
+  "rate": 200 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 5 ,
+  "endCharIndex" : 9,
   "index" : 0
-  }
+  } , 
+  {
+    "startTime": 49300,
+    "rate": 200 ,
+    "biginnerCharIndex" : 0 ,
+    "endCharIndex" : 9,
+    "index" : 1
+    } , 
+    {
+      "startTime": 49500,
+      "rate": 600 ,
+      "biginnerCharIndex" : 0 ,
+      "endCharIndex" : 9,
+      "index" : 2
+      } , 
+  {
+    "startTime": 50100,
+    "rate": 1400 ,
+    "biginnerCharIndex" : 10 ,
+    "endCharIndex" : 16 ,
+    "index" : 3
+    }
   ]
  },
  {
- "title": "خوش اومدی جایی که",
- "DisplayStartTime": 48800,
- "DisplayEndTime": 50800,
+ "title": "آتيش آتيش اسم" , 
+ "DisplayStartTime": 51600,
+ "DisplayEndTime": 53300,
  "direction" : "RTL",
  "index" : 8 ,
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 48800,
-  "rate": 500 ,
+  "startTime": 51600,
+  "rate": 600 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 3 ,
+  "endCharIndex" : 9 ,
   "index" : 0
   },
   {
-  "startTime": 49300,
-  "rate": 500 ,
-  "biginnerCharIndex" : 4 ,
-  "endCharIndex" : 9 ,
-  "index" : 1
-  },
+    "startTime": 52200,
+    "rate": 600 ,
+    "biginnerCharIndex" : 0 ,
+    "endCharIndex" : 9 ,
+    "index" : 1
+    },
   {
-  "startTime": 49800,
+  "startTime": 52800,
   "rate": 500 ,
   "biginnerCharIndex" : 10 ,
-  "endCharIndex" : 14 ,
+  "endCharIndex" : 13 ,
   "index" : 2
-  },
-  {
-  "startTime": 50300,
-  "rate": 500 ,
-  "biginnerCharIndex" : 15 ,
-  "endCharIndex" : 17 ,
-  "index" : 3
   }
   ]
  },
  {
- "title": "حسی نی",
- "DisplayStartTime": 52500,
- "DisplayEndTime": 54900,
+ "title": "اونه جنس كويرمونه" ,
+ "DisplayStartTime": 53300,
+ "DisplayEndTime": 56500,
  "direction" : "RTL",
  "index" : 9 ,
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 52500,
-  "rate": 1200 ,
+  "startTime": 53300,
+  "rate": 900 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 3 ,
   "index" : 0
   },
   {
-  "startTime": 53700,
-  "rate": 1200 ,
+  "startTime": 54200,
+  "rate": 500 ,
   "biginnerCharIndex" : 4 ,
   "endCharIndex" : 6 ,
   "index" : 1
-  }
+  } , 
+  {
+    "startTime": 54700,
+    "rate": 1800 ,
+    "biginnerCharIndex" : 4 ,
+    "endCharIndex" : 6 ,
+    "index" : 2
+    }
   ]
  },
  {
- "title": "پره آدمه ولی کسی نی",
- "DisplayStartTime": 56200,
- "DisplayEndTime": 62000,
+ "title": "دست به تنش نخورده" ,
+ "DisplayStartTime": 56500,
+ "DisplayEndTime": 59300,
  "direction" : "RTL",
  "index" : 10 ,
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 56200,
-  "rate": 1160 ,
+  "startTime": 56500,
+  "rate": 500 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 3 ,
   "index" : 0
   },
   {
-  "startTime": 57360,
-  "rate": 1160 ,
+  "startTime": 57000,
+  "rate": 400 ,
   "biginnerCharIndex" : 4 ,
-  "endCharIndex" : 8 ,
+  "endCharIndex" : 6 ,
   "index" : 1
   },
   {
-  "startTime": 58520,
-  "rate": 1160 ,
-  "biginnerCharIndex" : 9 ,
-  "endCharIndex" : 12 ,
+  "startTime": 57400,
+  "rate": 800 ,
+  "biginnerCharIndex" : 7 ,
+  "endCharIndex" : 10 ,
   "index" : 2
   },
   {
-  "startTime": 59680,
-  "rate": 1160 ,
-  "biginnerCharIndex" : 13 ,
-  "endCharIndex" : 16 ,
+  "startTime": 58200,
+  "rate": 1100 ,
+  "biginnerCharIndex" : 11 ,
+  "endCharIndex" : 17 ,
   "index" : 3
-  },
-  {
-  "startTime": 60840,
-  "rate": 1160 ,
-  "biginnerCharIndex" : 17 ,
-  "endCharIndex" : 19 ,
-  "index" : 4
   }
   ]
  },
  {
- "title": "خوش اومدی به دنیام",
- "DisplayStartTime": 63200,
- "DisplayEndTime": 64100,
+ "title": "قلبمو ميسوزونه" ,
+ "DisplayStartTime": 59300,
+ "DisplayEndTime": 61900,
  "direction" : "RTL",
  "index" : 11 ,
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 63200,
-  "rate": 225 ,
+  "startTime": 59300,
+  "rate": 700 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 3 ,
   "index" : 0
   },
   {
-  "startTime": 63425,
-  "rate": 225 ,
+  "startTime": 60000,
+  "rate": 1900 ,
   "biginnerCharIndex" : 4 ,
   "endCharIndex" : 9 ,
   "index" : 1
-  },
-  {
-  "startTime": 63650,
-  "rate": 225 ,
-  "biginnerCharIndex" : 10 ,
-  "endCharIndex" : 12 ,
-  "index" : 2
-  },
-  {
-  "startTime": 63875,
-  "rate": 225 ,
-  "biginnerCharIndex" : 13 ,
-  "endCharIndex" : 18 ,
-  "index" : 3
   }
   ]
  },
  {
- "title": "همه از یکم تا سی یُم",
- "DisplayStartTime": 64100,
- "DisplayEndTime": 66200,
+ "title": "آتيش آتيش اسمه اونه" ,
+ "DisplayStartTime": 61900,
+ "DisplayEndTime": 64200,
   "index" : 12 ,
   "direction" : "RTL",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 64100,
-  "rate": 350 ,
+  "startTime": 61900,
+  "rate": 650 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 3 ,
     "index" : 0
   },
   {
-  "startTime": 64450,
-  "rate": 350 ,
+  "startTime": 62550,
+  "rate": 650 ,
   "biginnerCharIndex" : 4 ,
   "endCharIndex" : 6 ,
     "index" : 1
   },
   {
-  "startTime": 64800,
-  "rate": 350 ,
+  "startTime": 63200,
+  "rate": 300 ,
   "biginnerCharIndex" : 7 ,
   "endCharIndex" : 10 ,
     "index" : 2
   },
   {
-  "startTime": 65150,
-  "rate": 350 ,
+  "startTime": 63500,
+  "rate": 700 ,
   "biginnerCharIndex" : 11 ,
   "endCharIndex" : 13 ,
     "index" : 3
-  },
-  {
-  "startTime": 65500,
-  "rate": 350 ,
-  "biginnerCharIndex" : 14 ,
-  "endCharIndex" : 16 ,
-    "index" : 4
-  },
-  {
-  "startTime": 65850,
-  "rate": 350 ,
-  "biginnerCharIndex" : 17 ,
-  "endCharIndex" : 20 ,
-    "index" : 5
   }
   ]
  },
  {
- "title": "میدون به دنباله",
- "DisplayStartTime": 66300,
- "DisplayEndTime": 67900,
+ "title": "جنس كويرمونه" ,
+ "DisplayStartTime": 64200,
+ "DisplayEndTime": 66900,
   "index" : 13 ,
   "direction" : "RTL",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 66300,
-  "rate": 533.3333333333334 ,
+  "startTime": 64200,
+  "rate": 800 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 5 ,
     "index" : 0
   },
   {
-  "startTime": 66833.33333333333,
-  "rate": 533.3333333333334 ,
+  "startTime": 65000,
+  "rate": 1400 ,
   "biginnerCharIndex" : 6 ,
   "endCharIndex" : 8 ,
-    "index" : 1
-  },
-  {
-  "startTime": 67366.66666666667,
-  "rate": 533.3333333333334 ,
-  "biginnerCharIndex" : 9 ,
-  "endCharIndex" : 15 ,
     "index" : 1
   }
   ]
  },
  {
- "title": "مالو کارو یه رویا",
- "DisplayStartTime": 67900,
- "DisplayEndTime": 69500,
+ "title": "دست به تنش نخورده" ,
+ "DisplayStartTime": 66900,
+ "DisplayEndTime": 69700,
   "index" : 14 ,
   "direction" : "RTL",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 67900,
-  "rate": 400 ,
+  "startTime": 66900,
+  "rate": 300 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 4 ,
     "index" : 0
   },
   {
-  "startTime": 68300,
-  "rate": 400 ,
+  "startTime": 67200,
+  "rate": 250 ,
   "biginnerCharIndex" : 5 ,
   "endCharIndex" : 9 ,
     "index" : 1
   },
   {
-  "startTime": 68700,
-  "rate": 400 ,
+  "startTime": 67450,
+  "rate": 700 ,
   "biginnerCharIndex" : 10 ,
   "endCharIndex" : 12 ,
     "index" : 2
   },
   {
-  "startTime": 69100,
-  "rate": 400 ,
+  "startTime": 68150,
+  "rate": 1850 ,
   "biginnerCharIndex" : 13 ,
   "endCharIndex" : 17 ,
     "index" : 3
@@ -570,11 +495,11 @@
   ]
  },
  {
- "title": "سر چی پوچ استقبال",
- "DisplayStartTime": 69700,
+ "title": "Como el-fuego",
+ "DisplayStartTime": 70000,
  "DisplayEndTime": 71200,
   "index" : 15 ,
-  "direction" : "RTL",
+  "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
@@ -590,29 +515,15 @@
   "biginnerCharIndex" : 3 ,
   "endCharIndex" : 5 ,
     "index" : 1
-  },
-  {
-  "startTime": 70450,
-  "rate": 375 ,
-  "biginnerCharIndex" : 6 ,
-  "endCharIndex" : 9 ,
-    "index" : 2
-  },
-  {
-  "startTime": 70825,
-  "rate": 375 ,
-  "biginnerCharIndex" : 10 ,
-  "endCharIndex" : 17 ,
-    "index" : 3
   }
   ]
  },
  {
- "title": "پرسپولیس و استقلال",
+ "title": "esa soy yo",
  "DisplayStartTime": 71500,
  "DisplayEndTime": 73100,
   "index" : 16 ,
-  "direction" : "RTL",
+  "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
@@ -639,11 +550,11 @@
   ]
  },
  {
- "title": "هرس جیبو هرس ارث و",
+ "title": "soy calor-que to",
  "DisplayStartTime": 73300,
  "DisplayEndTime": 75000,
   "index" : 17 ,
-  "direction" : "RTL",
+  "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
@@ -666,29 +577,15 @@
   "biginnerCharIndex" : 9 ,
   "endCharIndex" : 12 ,
     "index" : 2
-  },
-  {
-  "startTime": 74320,
-  "rate": 340 ,
-  "biginnerCharIndex" : 13 ,
-  "endCharIndex" : 16 ,
-    "index" : 3
-  },
-  {
-  "startTime": 74660,
-  "rate": 340 ,
-  "biginnerCharIndex" : 17 ,
-  "endCharIndex" : 18 ,
-    "index" : 4
   }
   ]
  },
  {
- "title": "هی گریز از استدلال",
+ "title": "quema la piel",
  "DisplayStartTime": 75000,
  "DisplayEndTime": 77000,
    "index" : 18 ,
-  "direction" : "RTL",
+  "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
@@ -711,613 +608,275 @@
   "biginnerCharIndex" : 8 ,
   "endCharIndex" : 10 ,
     "index" : 2
-  },
-  {
-  "startTime": 76500,
-  "rate": 500 ,
-  "biginnerCharIndex" : 11 ,
-  "endCharIndex" : 18 ,
-    "index" : 3
   }
   ]
  },
  {
- "title": "آه از خواب پا میشم",
+ "title": "Mo boca ardient",
  "DisplayStartTime": 77000,
  "DisplayEndTime": 79000,
+ "index" : 19 ,
+ "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
   "startTime": 77000,
   "rate": 400 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 2
+  "endCharIndex" : 2 , 
+  "index" : 0
   },
   {
   "startTime": 77400,
   "rate": 400 ,
   "biginnerCharIndex" : 3 ,
-  "endCharIndex" : 5
+  "endCharIndex" : 5 , 
+  "index" : 1
   },
   {
   "startTime": 77800,
   "rate": 400 ,
   "biginnerCharIndex" : 6 ,
-  "endCharIndex" : 10
-  },
-  {
-  "startTime": 78200,
-  "rate": 400 ,
-  "biginnerCharIndex" : 11 ,
-  "endCharIndex" : 13
-  },
-  {
-  "startTime": 78600,
-  "rate": 400 ,
-  "biginnerCharIndex" : 14 ,
-  "endCharIndex" : 18
+  "endCharIndex" : 10 , 
+  "index" : 2
   }
   ]
  },
  {
- "title": "مثه یه مرده راه میرم",
+ "title": "con saboor a miel",
  "DisplayStartTime": 79400,
  "DisplayEndTime": 81000,
+ "index" : 20 ,
+ "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
   "startTime": 79400,
   "rate": 320 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 3
+  "endCharIndex" : 3 , 
+  "index" : 0
   },
   {
   "startTime": 79720,
   "rate": 320 ,
   "biginnerCharIndex" : 4 ,
-  "endCharIndex" : 6
+  "endCharIndex" : 6 , 
+  "index" : 1
   },
   {
   "startTime": 80040,
   "rate": 320 ,
   "biginnerCharIndex" : 7 ,
-  "endCharIndex" : 11
+  "endCharIndex" : 11 , 
+  "index" : 2
   },
   {
   "startTime": 80360,
   "rate": 320 ,
   "biginnerCharIndex" : 12 ,
-  "endCharIndex" : 15
-  },
-  {
-  "startTime": 80680,
-  "rate": 320 ,
-  "biginnerCharIndex" : 16 ,
-  "endCharIndex" : 20
+  "endCharIndex" : 15 , 
+  "index" : 3
   }
   ]
  },
  {
- "title": "اسیر عقده ها میشم و",
+ "title": "En mi se funden",
  "DisplayStartTime": 81300,
  "DisplayEndTime": 83000,
+ "index" : 21 ,
+ "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
   "startTime": 81300,
   "rate": 340 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 4
-  },
-  {
-  "startTime": 81640,
-  "rate": 340 ,
-  "biginnerCharIndex" : 5 ,
-  "endCharIndex" : 9
+  "endCharIndex" : 4 , 
+  "index" : 0
   },
   {
   "startTime": 81980,
   "rate": 340 ,
   "biginnerCharIndex" : 10 ,
-  "endCharIndex" : 12
+  "endCharIndex" : 12 , 
+  "index" : 1
   },
   {
   "startTime": 82320,
   "rate": 340 ,
   "biginnerCharIndex" : 13 ,
-  "endCharIndex" : 17
+  "endCharIndex" : 17 , 
+  "index" : 2
   },
   {
   "startTime": 82660,
   "rate": 340 ,
   "biginnerCharIndex" : 18 ,
-  "endCharIndex" : 19
+  "endCharIndex" : 19 , 
+  "index" : 3
   }
   ]
  },
  {
- "title": "اسیر عقده ها میشم",
+ "title": "la luna y el sol",
  "DisplayStartTime": 83000,
  "DisplayEndTime": 85000,
+ "index" : 22 ,
+ "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
   "startTime": 83000,
   "rate": 500 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 4
+  "endCharIndex" : 4 , 
+  "index" : 0
   },
   {
   "startTime": 83500,
   "rate": 500 ,
   "biginnerCharIndex" : 5 ,
-  "endCharIndex" : 9
+  "endCharIndex" : 9 , 
+  "index" : 1
   },
   {
   "startTime": 84000,
   "rate": 500 ,
   "biginnerCharIndex" : 10 ,
-  "endCharIndex" : 12
+  "endCharIndex" : 12 , 
+  "index" : 2
   },
   {
   "startTime": 84500,
   "rate": 500 ,
   "biginnerCharIndex" : 13 ,
-  "endCharIndex" : 17
-  }
+  "endCharIndex" : 17 , 
+  "index" : 3
+  } ,
+  {
+    "startTime": 84500,
+    "rate": 500 ,
+    "biginnerCharIndex" : 13 ,
+    "endCharIndex" : 17 , 
+    "index" : 4
+    }
   ]
  },
  {
- "title": "بازم پا میشم",
+ "title": "Damino el arte de",
  "DisplayStartTime": 85300,
  "DisplayEndTime": 86500,
+ "index" : 23 ,
+ "direction" : "lTR",
  "HighlighOffsetsTiming":
  [
   {
   "startTime": 85300,
   "rate": 400 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 4
+  "endCharIndex" : 4 , 
+  "index" : 0
   },
   {
   "startTime": 85700,
   "rate": 400 ,
   "biginnerCharIndex" : 5 ,
-  "endCharIndex" : 7
+  "endCharIndex" : 7 , 
+  "index" : 1
   },
   {
   "startTime": 86100,
   "rate": 400 ,
   "biginnerCharIndex" : 8 ,
-  "endCharIndex" : 12
-  }
+  "endCharIndex" : 12 , 
+  "index" : 2
+  },
+  {
+    "startTime": 86100,
+    "rate": 400 ,
+    "biginnerCharIndex" : 8 ,
+    "endCharIndex" : 12 , 
+    "index" : 3
+    }   
   ]
  },
  {
- "title": "بالام خورشید و ماه پیشم",
+ "title": "la seduccin",
  "DisplayStartTime": 86700,
  "DisplayEndTime": 88500,
+ "index" : 24 ,
+ "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
   "startTime": 86700,
   "rate": 360 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 5
+  "endCharIndex" : 5, 
+  "index" : 0
   },
   {
   "startTime": 87060,
   "rate": 360 ,
   "biginnerCharIndex" : 6 ,
-  "endCharIndex" : 12
-  },
-  {
-  "startTime": 87420,
-  "rate": 360 ,
-  "biginnerCharIndex" : 13 ,
-  "endCharIndex" : 14
-  },
-  {
-  "startTime": 87780,
-  "rate": 360 ,
-  "biginnerCharIndex" : 15 ,
-  "endCharIndex" : 18
-  },
-  {
-  "startTime": 88140,
-  "rate": 360 ,
-  "biginnerCharIndex" : 19 ,
-  "endCharIndex" : 23
+  "endCharIndex" : 12 , 
+  "index" : 1
   }
   ]
  },
  {
- "title": "امید رو حس میکنم",
+ "title": "labios jugosos",
  "DisplayStartTime": 88800,
  "DisplayEndTime": 90400,
+ "index" : 25 ,
+ "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
   "startTime": 88800,
   "rate": 400 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 4
+  "endCharIndex" : 4 , 
+  "index" : 0
   },
   {
   "startTime": 89200,
   "rate": 400 ,
   "biginnerCharIndex" : 5 ,
-  "endCharIndex" : 7
-  },
-  {
-  "startTime": 89600,
-  "rate": 400 ,
-  "biginnerCharIndex" : 8 ,
-  "endCharIndex" : 10
-  },
-  {
-  "startTime": 90000,
-  "rate": 400 ,
-  "biginnerCharIndex" : 11 ,
-  "endCharIndex" : 16
+  "endCharIndex" : 7 , 
+  "index" : 1
   }
   ]
  },
  {
- "title": "از نوکه برگام تا ریشم",
+ "title": "recorren tu ser",
  "DisplayStartTime": 90500,
  "DisplayEndTime": 92100,
+ "index" : 25 ,
+ "direction" : "lTR",
  "HighlighOffsetsTiming":
  [
   {
   "startTime": 90500,
   "rate": 320 ,
   "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 2
+  "endCharIndex" : 2 , 
+  "index" : 0
   },
   {
   "startTime": 90820,
   "rate": 320 ,
   "biginnerCharIndex" : 3 ,
-  "endCharIndex" : 7
+  "endCharIndex" : 7 ,
+  "index" : 1
   },
   {
   "startTime": 91140,
   "rate": 320 ,
   "biginnerCharIndex" : 8 ,
-  "endCharIndex" : 13
-  },
-  {
-  "startTime": 91460,
-  "rate": 320 ,
-  "biginnerCharIndex" : 14 ,
-  "endCharIndex" : 16
-  },
-  {
-  "startTime": 91780,
-  "rate": 320 ,
-  "biginnerCharIndex" : 17 ,
-  "endCharIndex" : 21
-  }
-  ]
- },
- {
- "title": "هنو هر روز پا میشم",
- "DisplayStartTime": 92200,
- "DisplayEndTime": 94000,
- "HighlighOffsetsTiming":
- [
-  {
-  "startTime": 92200,
-  "rate": 360 ,
-  "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 3
-  },
-  {
-  "startTime": 92560,
-  "rate": 360 ,
-  "biginnerCharIndex" : 4 ,
-  "endCharIndex" : 6
-  },
-  {
-  "startTime": 92920,
-  "rate": 360 ,
-  "biginnerCharIndex" : 7 ,
-  "endCharIndex" : 10
-  },
-  {
-  "startTime": 93280,
-  "rate": 360 ,
-  "biginnerCharIndex" : 11 ,
-  "endCharIndex" : 13
-  },
-  {
-  "startTime": 93640,
-  "rate": 360 ,
-  "biginnerCharIndex" : 14 ,
-  "endCharIndex" : 18
-  }
-  ]
- },
- {
- "title": "هنو همونا پیشم",
- "DisplayStartTime": 94100,
- "DisplayEndTime": 95800,
- "HighlighOffsetsTiming":
- [
-  {
-  "startTime": 94100,
-  "rate": 566.6666666666666 ,
-  "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 3
-  },
-  {
-  "startTime": 94666.66666666667,
-  "rate": 566.6666666666666 ,
-  "biginnerCharIndex" : 4 ,
-  "endCharIndex" : 9
-  },
-  {
-  "startTime": 95233.33333333333,
-  "rate": 566.6666666666666 ,
-  "biginnerCharIndex" : 10 ,
-  "endCharIndex" : 14
-  }
-  ]
- },
- {
- "title": "هنو دندونا تیزن و",
- "DisplayStartTime": 95900,
- "DisplayEndTime": 97700,
- "HighlighOffsetsTiming":
- [
-  {
-  "startTime": 95900,
-  "rate": 450 ,
-  "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 3
-  },
-  {
-  "startTime": 96350,
-  "rate": 450 ,
-  "biginnerCharIndex" : 4 ,
-  "endCharIndex" : 10
-  },
-  {
-  "startTime": 96800,
-  "rate": 450 ,
-  "biginnerCharIndex" : 11 ,
-  "endCharIndex" : 15
-  },
-  {
-  "startTime": 97250,
-  "rate": 450 ,
-  "biginnerCharIndex" : 16 ,
-  "endCharIndex" : 17
-  }
-  ]
- },
- {
- "title": "از گوش تا گوش وا نیشم",
- "DisplayStartTime": 97700,
- "DisplayEndTime": 99700,
- "HighlighOffsetsTiming":
- [
-  {
-  "startTime": 97700,
-  "rate": 333.3333333333333 ,
-  "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 2
-  },
-  {
-  "startTime": 98033.33333333333,
-  "rate": 333.3333333333333 ,
-  "biginnerCharIndex" : 3 ,
-  "endCharIndex" : 6
-  },
-  {
-  "startTime": 98366.66666666667,
-  "rate": 333.3333333333333 ,
-  "biginnerCharIndex" : 7 ,
-  "endCharIndex" : 9
-  },
-  {
-  "startTime": 98700,
-  "rate": 333.3333333333333 ,
-  "biginnerCharIndex" : 10 ,
-  "endCharIndex" : 13
-  },
-  {
-  "startTime": 99033.33333333333,
-  "rate": 333.3333333333333 ,
-  "biginnerCharIndex" : 14 ,
-  "endCharIndex" : 16
-  },
-  {
-  "startTime": 99366.66666666667,
-  "rate": 333.3333333333333 ,
-  "biginnerCharIndex" : 17 ,
-  "endCharIndex" : 21
-  }
-  ]
- },
- {
- "title": "خوش اومدی جایی که",
- "DisplayStartTime": 101200,
- "DisplayEndTime": 102500,
- "HighlighOffsetsTiming":
- [
-  {
-  "startTime": 101200,
-  "rate": 325 ,
-  "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 3
-  },
-  {
-  "startTime": 101825,
-  "rate": 325 ,
-  "biginnerCharIndex" : 4 ,
-  "endCharIndex" : 9
-  },
-  {
-  "startTime": 102050,
-  "rate": 325 ,
-  "biginnerCharIndex" : 10 ,
-  "endCharIndex" : 14
-  },
-  {
-  "startTime": 102275,
-  "rate": 325 ,
-  "biginnerCharIndex" : 15 ,
-  "endCharIndex" : 17
-  }
-  ]
- },
- {
- "title": "رسیدی",
- "DisplayStartTime": 104100,
- "DisplayEndTime": 106300,
- "HighlighOffsetsTiming":
- [
-  {
-  "startTime": 104100,
-  "rate": 2200 ,
-  "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 5
-  }
-  ]
- },
- {
- "title": "خوش اومدی جایی که ",
- "DisplayStartTime": 107900,
- "DisplayEndTime": 110000,
- "HighlighOffsetsTiming":
- [
-  {
-  "startTime": 107900,
-  "rate": 420 ,
-  "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 3
-  },
-  {
-  "startTime": 108320,
-  "rate": 420 ,
-  "biginnerCharIndex" : 4 ,
-  "endCharIndex" : 9
-  },
-  {
-  "startTime": 108740,
-  "rate": 420 ,
-  "biginnerCharIndex" : 10 ,
-  "endCharIndex" : 14
-  },
-  {
-  "startTime": 109160,
-  "rate": 420 ,
-  "biginnerCharIndex" : 15 ,
-  "endCharIndex" : 17
-  },
-  {
-  "startTime": 109580,
-  "rate": 420 ,
-  "biginnerCharIndex" : 18 ,
-  "endCharIndex" : 18
-  }
-  ]
- },
- {
- "title": "حسی نی",
- "DisplayStartTime": 111600,
- "DisplayEndTime": 114000,
- "HighlighOffsetsTiming":
- [
-  {
-  "startTime": 111600,
-  "rate": 1200 ,
-  "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 3
-  },
-  {
-  "startTime": 112800,
-  "rate": 1200 ,
-  "biginnerCharIndex" : 4 ,
-  "endCharIndex" : 6
-  }
-  ]
- },
- {
- "title": "پره آدمه ولی کسی نی",
- "DisplayStartTime": 115200,
- "DisplayEndTime": 121000,
- "HighlighOffsetsTiming":
- [
-  {
-  "startTime": 115200,
-  "rate": 1160 ,
-  "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 3
-  },
-  {
-  "startTime": 116360,
-  "rate": 1160 ,
-  "biginnerCharIndex" : 4 ,
-  "endCharIndex" : 8
-  },
-  {
-  "startTime": 117520,
-  "rate": 1160 ,
-  "biginnerCharIndex" : 9 ,
-  "endCharIndex" : 12
-  },
-  {
-  "startTime": 118680,
-  "rate": 1160 ,
-  "biginnerCharIndex" : 13 ,
-  "endCharIndex" : 16
-  },
-  {
-  "startTime": 119840,
-  "rate": 1160 ,
-  "biginnerCharIndex" : 17 ,
-  "endCharIndex" : 19
-  }
-  ]
- },
- {
- "title": "پره آدمه ولی کسی نی",
- "DisplayStartTime": 122700,
- "DisplayEndTime": 128400 ,
- "HighlighOffsetsTiming":
- [
-  {
-  "startTime": 122700,
-  "rate": 1140 ,
-  "biginnerCharIndex" : 0 ,
-  "endCharIndex" : 3
-  },
-  {
-  "startTime": 123840,
-  "rate": 1140 ,
-  "biginnerCharIndex" : 4 ,
-  "endCharIndex" : 8
-  },
-  {
-  "startTime": 124980,
-  "rate": 1140 ,
-  "biginnerCharIndex" : 9 ,
-  "endCharIndex" : 12
-  },
-  {
-  "startTime": 126120,
-  "rate": 1140 ,
-  "biginnerCharIndex" : 13 ,
-  "endCharIndex" : 16
-  },
-  {
-  "startTime": 127260,
-  "rate": 1140 ,
-  "biginnerCharIndex" : 17 ,
-  "endCharIndex" : 19
+  "endCharIndex" : 13 , 
+  "index" : 2
   }
   ]
  }

@@ -121,6 +121,10 @@ class Lyrics {
          
             if let thisWord = getThisWord(sentence: oldSentence) {
        
+                if oldSentence.index != 15 {
+                    
+                }
+                
                    var wordContent =  oldSentence.title!.components(separatedBy: " ")[thisWord.index!]
                 
             
