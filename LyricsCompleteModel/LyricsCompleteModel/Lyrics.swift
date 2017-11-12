@@ -14,7 +14,9 @@ class Lyrics {
     var  counter: Double = -1 // timer counter per time called
     var configuration : LyricsConfig?
     var content : LyricsModel?
-     var lastShowSentenceBlockIndex : Int = -1
+    var lastShowSentencInTop : Int = -1
+    var lastShowSentencInBottom : Int = -1
+    var lastShowSentenc : Int = -1
      var wordSubTitleViewArray = [Int: [UILabel]]() // key is sentec index value is a subtitle word view
     
     func setLyrics(from url : URL)  {
@@ -22,10 +24,7 @@ class Lyrics {
         let jsonResult = try! JSONSerialization.jsonObject(with: jsonData, options: JSONSerialization.ReadingOptions.mutableContainers) as! [[String : Any]]
         content =  LyricsParser.parse(input: jsonResult)
     }
-    func resetLyrics(){
-        
-    }
-
+  
     func startShowing(){
         mainTimer = Timer.scheduledTimer(withTimeInterval: self.configuration!.timerRateCheckingJSON, repeats: true, block: { (timer) in
             self.counter += 1
@@ -35,11 +34,32 @@ class Lyrics {
     
     //MARK:- get sentences that does not show yet
     func getSentenceDoesNotShowYet()->LyricsSubtitleModel?{
-     let filterdSentencArrayNotShowingYet = content?.subTitleArray.filter { (model) -> Bool in
-            
-            return ( model.startTime! / 1000 <= counter * self.configuration!.timerRateCheckingJSON &&  model.endTime! / 1000 >= counter * self.configuration!.timerRateCheckingJSON  && !model.isShown)
+        
+      //  var lastIndex = lastShowSentenc
+        
+     //   lastShowSentenc += 1
+        
+        if lastShowSentenc >= 0 {
+            if lastShowSentenc == 0 {
+                lastShowSentenc = 1
+                 return self.content!.subTitleArray[lastShowSentenc]
+            }else{
+                print(self.content!.subTitleArray[lastShowSentenc].endTime! / 1000)
+                if self.content!.subTitleArray[lastShowSentenc].endTime! / 1000 <= counter * self.configuration!.timerRateCheckingJSON {
+                
+                    lastShowSentenc += 1
+                    return self.content!.subTitleArray[lastShowSentenc]
+                }
+                return nil
+            }
+      
+        }else{
+            // this is first time
+            lastShowSentenc = 0
+            return self.content!.subTitleArray[lastShowSentenc]
         }
-        return filterdSentencArrayNotShowingYet?.last
+        
+
     }
     //MARK:- get sentences that does  show before
     func getSentenceDoseShowBefore()->LyricsSubtitleModel?{
@@ -98,12 +118,9 @@ class Lyrics {
         
         if let oldSentence = oldSentence {
 
-            
-            
+         
             if let thisWord = getThisWord(sentence: oldSentence) {
-             
-               
-                
+       
                    var wordContent =  oldSentence.title!.components(separatedBy: " ")[thisWord.index!]
                 
             
@@ -127,7 +144,9 @@ class Lyrics {
                    let animationTime = thisWord.duration! / 1000
                
                 let location = oldSentence.location
-                play(thisWordShownigWord: wordContent, sentenceIndex: oldSentence.index!, durationAnimation: animationTime, direction: direction, lyricsWordLocation: location)
+                
+                
+                play(thisWordShownigWord: wordContent, sentenceIndex: oldSentence.index!, durationAnimation: animationTime, direction: direction, lyricsWordLocation: location, isLastWordInSentenc: isLastWord)
 
             }
         }
@@ -155,7 +174,7 @@ class Lyrics {
     }
     
     
-    func play(thisWordShownigWord : String , sentenceIndex sentencID : Int , durationAnimation : TimeInterval , direction : LyricsLanguageType , lyricsWordLocation : LyricsLocation){
+    func play(thisWordShownigWord : String , sentenceIndex sentencID : Int , durationAnimation : TimeInterval , direction : LyricsLanguageType , lyricsWordLocation : LyricsLocation , isLastWordInSentenc : Bool){
     
         let thisLable = UILabel.init()
         
@@ -276,7 +295,7 @@ class Lyrics {
         }
         
         
-        expandViewWithAnimation(sender: thisLable, animationTime: durationAnimation,  destinationWidth: destinationWidth, destinationOriginX: destinationOriginX)
+        expandViewWithAnimation(sender: thisLable, animationTime: durationAnimation,  destinationWidth: destinationWidth, destinationOriginX: destinationOriginX, isLastWordInSentence: isLastWordInSentenc, sentenceID: sentencID, location: lyricsWordLocation)
         
        
         self.insertToWordSubTitleViewArray(key: sentencID, view: thisLable)
@@ -359,7 +378,13 @@ class Lyrics {
         
     }
     
-    private func getAllInsideWordInSentenc(){
+    private func setLyricsToEmpty(location : LyricsLocation){
+
+        if location == .top {
+            self.configuration!.topLabel.text = ""
+        }else{
+            self.configuration!.bottomLabel.text = ""
+        }
         
     }
     
@@ -436,12 +461,33 @@ class Lyrics {
      private func writeSentenceWithoutAnimation(content : String , direction : LyricsLanguageType){
         
     }
-    private func expandViewWithAnimation(sender : UIView , animationTime : TimeInterval , destinationWidth : CGFloat , destinationOriginX : CGFloat){
+    private func expandViewWithAnimation(sender : UIView , animationTime : TimeInterval , destinationWidth : CGFloat , destinationOriginX : CGFloat , isLastWordInSentence : Bool , sentenceID : Int , location
+        : LyricsLocation){
         
-        UIView.animate(withDuration: animationTime) {
+        UIView.animate(withDuration: animationTime, animations: {
+            
             sender.frame.origin.x = destinationOriginX
             sender.frame.size.width =  destinationWidth
+            
+        }) { (complete) in
+            
+            if complete , isLastWordInSentence {
+                
+                self.removeFromWordSubTitleViewArray(currentSentenceIndex: sentenceID + 1)
+               // self.setLyricsToEmpty(location: location)
+                self.showNextTwoSentenc(currentSentecID: sentenceID, location: location)
+                
+            }
         }
         
+       
+        
+    }
+    func showNextTwoSentenc(currentSentecID : Int , location : LyricsLocation){
+        if  location == .top {
+            self.configuration!.topLabel.text = self.content!.subTitleArray[currentSentecID + 2].title
+        }else{
+            self.configuration!.bottomLabel.text = self.content!.subTitleArray[currentSentecID + 2].title
+        }
     }
 }

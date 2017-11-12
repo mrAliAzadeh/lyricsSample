@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532089742.650483"
+            timestampString = "532169728.871343"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "193"
-            endingLineNumber = "193"
-            landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:)"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:isLastWordInSentenc:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +26,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532089742.650607"
+            timestampString = "532169728.871769"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:isLastWordInSentenc:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LyricsCompleteModel/Lyrics.swift"
+            timestampString = "532169728.872089"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
+            landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:isLastWordInSentenc:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LyricsCompleteModel/Lyrics.swift"
+            timestampString = "532169728.87239"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "211"
             endingLineNumber = "211"
-            landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:)"
+            landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:isLastWordInSentenc:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,12 +74,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532089742.650699"
+            timestampString = "532169728.872689"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "199"
-            endingLineNumber = "199"
-            landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:)"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
+            landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:isLastWordInSentenc:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,76 +90,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532089742.650777"
+            timestampString = "532169728.87299"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "192"
-            endingLineNumber = "192"
-            landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532089742.650853"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "267"
-            endingLineNumber = "267"
-            landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532089742.650914"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "timerLoop()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532089742.650969"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
-            landmarkName = "timerLoop()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LyricsCompleteModel/Lyrics.swift"
-            timestampString = "532089742.65102"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
-            landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:)"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "play(thisWordShownigWord:sentenceIndex:durationAnimation:direction:lyricsWordLocation:isLastWordInSentenc:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
