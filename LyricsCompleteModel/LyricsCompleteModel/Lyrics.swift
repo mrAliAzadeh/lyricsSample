@@ -44,10 +44,16 @@ class Lyrics {
                 lastShowSentenc = 1
                  return self.content!.subTitleArray[lastShowSentenc]
             }else{
-                print(self.content!.subTitleArray[lastShowSentenc].endTime! / 1000)
+               
+                //print(self.content!.subTitleArray[lastShowSentenc].endTime! / 1000)
                 if self.content!.subTitleArray[lastShowSentenc].endTime! / 1000 <= counter * self.configuration!.timerRateCheckingJSON {
                 
-                    lastShowSentenc += 1
+               
+                    
+                    guard lastShowSentenc + 1 <= self.content!.subTitleArray.count - 1 else{
+                        return nil
+                    }
+                         lastShowSentenc += 1
                     return self.content!.subTitleArray[lastShowSentenc]
                 }
                 return nil
@@ -101,6 +107,11 @@ class Lyrics {
         
         if let newSentence = newSentence {
             // write sentence
+            
+            if newSentence.index == 23 {
+              //  print("hala")
+            }
+            
             newSentence.isShown = true
             if self.configuration!.status.lastSentenceLocation != nil {
                 if self.configuration!.status.lastSentenceLocation! == .bottom {
@@ -119,6 +130,10 @@ class Lyrics {
         if let oldSentence = oldSentence {
 
          
+            if oldSentence.index! >= 34 {
+               // print("hi")
+            }
+            
             if let thisWord = getThisWord(sentence: oldSentence) {
        
                 if oldSentence.index != 15 {
@@ -488,6 +503,12 @@ class Lyrics {
         
     }
     func showNextTwoSentenc(currentSentecID : Int , location : LyricsLocation){
+        
+        guard  currentSentecID + 2 <= self.content!.subTitleArray.count-1 else{
+            // means this is the lastest sentec in top or bottom
+            return
+        }
+        
         if  location == .top {
             self.configuration!.topLabel.text = self.content!.subTitleArray[currentSentecID + 2].title
         }else{

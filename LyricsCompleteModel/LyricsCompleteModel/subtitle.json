@@ -768,7 +768,7 @@
  "DisplayStartTime": 79600,
  "DisplayEndTime": 81100,
  "index" : 23 ,
- "direction" : "lTR",
+ "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
@@ -854,7 +854,7 @@
  "DisplayStartTime": 83200,
  "DisplayEndTime": 84400,
  "index" : 26 ,
- "direction" : "lTR",
+ "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
@@ -885,7 +885,7 @@
   "DisplayStartTime": 84400,
   "DisplayEndTime": 85300,
   "index" : 27 ,
-  "direction" : "lTR",
+  "direction" : "LTR",
   "HighlighOffsetsTiming":
   [
    {
@@ -916,7 +916,7 @@
     "DisplayStartTime": 85300,
     "DisplayEndTime": 87300,
     "index" : 28 ,
-    "direction" : "lTR",
+    "direction" : "LTR",
     "HighlighOffsetsTiming":
     [
      {
@@ -954,7 +954,7 @@
       "DisplayStartTime": 87300,
       "DisplayEndTime": 88600,
       "index" : 29 ,
-      "direction" : "lTR",
+      "direction" : "LTR",
       "HighlighOffsetsTiming":
       [
        {
@@ -985,7 +985,7 @@
         "DisplayStartTime": 88600,
         "DisplayEndTime": 90000,
         "index" : 30 ,
-        "direction" : "lTR",
+        "direction" : "LTR",
         "HighlighOffsetsTiming":
         [
          {
@@ -1023,7 +1023,7 @@
           "DisplayStartTime": 90000,
           "DisplayEndTime": 91000,
           "index" : 31 ,
-          "direction" : "lTR",
+          "direction" : "LTR",
           "HighlighOffsetsTiming":
           [
            {
@@ -1061,7 +1061,7 @@
             "DisplayStartTime": 91000,
             "DisplayEndTime": 92700,
             "index" : 32 ,
-            "direction" : "lTR",
+            "direction" : "LTR",
             "HighlighOffsetsTiming":
             [
              {
@@ -1090,28 +1090,28 @@
             {
               "title": "منم از عاشقاشم",
               "DisplayStartTime": 92700,
-              "DisplayEndTime": 96000,
+              "DisplayEndTime": 95500,
               "index" : 33 ,
-              "direction" : "lTR",
+              "direction" : "RTL",
               "HighlighOffsetsTiming":
               [
                {
                "startTime": 92700,
-               "rate": 100 ,
+               "rate": 1000 ,
                "biginnerCharIndex" : 0 ,
                "endCharIndex" : 2 , 
                "index" : 0
                },
                {
                "startTime": 93700,
-               "rate": 100 ,
+               "rate": 800 ,
                "biginnerCharIndex" : 3 ,
                "endCharIndex" : 7 ,
                "index" : 1
                },
                {
-               "startTime": 93800,
-               "rate": 1700 ,
+               "startTime": 94500,
+               "rate": 1000 ,
                "biginnerCharIndex" : 8 ,
                "endCharIndex" : 13 , 
                "index" : 2
@@ -1123,7 +1123,7 @@
                 "DisplayStartTime": 95500,
                 "DisplayEndTime": 98200,
                 "index" : 34 ,
-                "direction" : "lTR",
+                "direction" : "RTL",
                 "HighlighOffsetsTiming":
                 [
                  {
@@ -1148,6 +1148,386 @@
                  "index" : 2
                  }
                  ]
-                }
+                },
+                {
+                "title": "یه آسمون ستارم",
+                "DisplayStartTime": 98200,
+                "DisplayEndTime": 100800,
+                "index" : 35 ,
+                "direction" : "RTL",
+                "HighlighOffsetsTiming":
+                [
+                 {
+                 "startTime": 98200,
+                 "rate": 200 ,
+                 "biginnerCharIndex" : 0 ,
+                 "endCharIndex" : 2 , 
+                 "index" : 0
+                 },
+                 {
+                 "startTime": 98400,
+                 "rate": 1000 ,
+                 "biginnerCharIndex" : 3 ,
+                 "endCharIndex" : 7 ,
+                 "index" : 1
+                 },
+                 {
+                 "startTime": 99400,
+                 "rate": 1400 ,
+                 "biginnerCharIndex" : 8 ,
+                 "endCharIndex" : 13 , 
+                 "index" : 2
+                 }
+                 ]
+                },{
+                  "title": "تو هر ستاره‌ام اون",
+                  "DisplayStartTime": 100800,
+                  "DisplayEndTime": 103300,
+                  "index" : 36 ,
+                  "direction" : "RTL",
+                  "HighlighOffsetsTiming":
+                  [
+                   {
+                   "startTime": 100800,
+                   "rate": 200 ,
+                   "biginnerCharIndex" : 0 ,
+                   "endCharIndex" : 2 , 
+                   "index" : 0
+                   },
+                   {
+                   "startTime": 101000,
+                   "rate": 300 ,
+                   "biginnerCharIndex" : 3 ,
+                   "endCharIndex" : 7 ,
+                   "index" : 1
+                   },
+                   {
+                   "startTime": 101400,
+                   "rate": 1300 ,
+                   "biginnerCharIndex" : 8 ,
+                   "endCharIndex" : 13 , 
+                   "index" : 2
+                   },{
+                    "startTime": 102700,
+                    "rate": 600 ,
+                    "biginnerCharIndex" : 8 ,
+                    "endCharIndex" : 13 , 
+                    "index" : 3
+                    }
+                   ]
+                  },{
+                    "title": "کشته منو فراوون",
+                    "DisplayStartTime": 103300,
+                    "DisplayEndTime": 106000,
+                    "index" : 37 ,
+                    "direction" : "RTL",
+                    "HighlighOffsetsTiming":
+                    [
+                     {
+                     "startTime": 103300,
+                     "rate": 900 ,
+                     "biginnerCharIndex" : 0 ,
+                     "endCharIndex" : 2 , 
+                     "index" : 0
+                     },
+                     {
+                     "startTime": 104200,
+                     "rate": 700 ,
+                     "biginnerCharIndex" : 3 ,
+                     "endCharIndex" : 7 ,
+                     "index" : 1
+                     },
+                     {
+                     "startTime": 104900,
+                     "rate": 1100 ,
+                     "biginnerCharIndex" : 8 ,
+                     "endCharIndex" : 13 , 
+                     "index" : 2
+                     }
+                     ]
+                    },{
+                      "title": "چه بی‌گناه و ارزون",
+                      "DisplayStartTime": 106000,
+                      "DisplayEndTime": 108300,
+                      "index" : 38 ,
+                      "direction" : "RTL",
+                      "HighlighOffsetsTiming":
+                      [
+                       {
+                       "startTime": 106000,
+                       "rate": 200 ,
+                       "biginnerCharIndex" : 0 ,
+                       "endCharIndex" : 2 , 
+                       "index" : 0
+                       },
+                       {
+                       "startTime": 106200,
+                       "rate": 800 ,
+                       "biginnerCharIndex" : 3 ,
+                       "endCharIndex" : 7 ,
+                       "index" : 1
+                       },
+                       {
+                       "startTime": 107000,
+                       "rate": 100 ,
+                       "biginnerCharIndex" : 8 ,
+                       "endCharIndex" : 13 , 
+                       "index" : 2
+                       },{
+                        "startTime": 107100,
+                        "rate": 1200 ,
+                        "biginnerCharIndex" : 8 ,
+                        "endCharIndex" : 13 , 
+                        "index" : 3
+                        }
+                       ]
+                      },
+                      {
+                        "title": "اما بازم میمیرم" ,
+                        "DisplayStartTime": 108300,
+                        "DisplayEndTime": 111000,
+                        "index" : 39 ,
+                        "direction" : "RTL",
+                        "HighlighOffsetsTiming":
+                        [
+                         {
+                         "startTime": 108300,
+                         "rate": 900 ,
+                         "biginnerCharIndex" : 0 ,
+                         "endCharIndex" : 2 , 
+                         "index" : 0
+                         },
+                         {
+                         "startTime": 109200,
+                         "rate": 700 ,
+                         "biginnerCharIndex" : 3 ,
+                         "endCharIndex" : 7 ,
+                         "index" : 1
+                         },
+                         {
+                         "startTime": 109900,
+                         "rate": 1100 ,
+                         "biginnerCharIndex" : 8 ,
+                         "endCharIndex" : 13 , 
+                         "index" : 2
+                         }
+                         ]
+                        },{
+                          "title": "براش تو عید قربون",
+                          "DisplayStartTime": 111000,
+                          "DisplayEndTime": 113000,
+                          "index" : 40 ,
+                          "direction" : "RTL",
+                          "HighlighOffsetsTiming":
+                          [
+                           {
+                           "startTime": 111000,
+                           "rate": 600 ,
+                           "biginnerCharIndex" : 0 ,
+                           "endCharIndex" : 2 , 
+                           "index" : 0
+                           },
+                           {
+                           "startTime": 111600,
+                           "rate": 100 ,
+                           "biginnerCharIndex" : 3 ,
+                           "endCharIndex" : 7 ,
+                           "index" : 1
+                           },
+                           {
+                           "startTime": 111700,
+                           "rate": 400 ,
+                           "biginnerCharIndex" : 8 ,
+                           "endCharIndex" : 13 , 
+                           "index" : 2
+                           },{
+                            "startTime": 112000,
+                            "rate": 1000 ,
+                            "biginnerCharIndex" : 8 ,
+                            "endCharIndex" : 13 , 
+                            "index" : 3
+                            }
+                           ]
+                          },
+                          {
+                            "title": "آتیش‌آتیش اسم اونه",
+                            "DisplayStartTime": 113000,
+                            "DisplayEndTime": 116000,
+                            "index" : 41 ,
+                            "direction" : "RTL",
+                            "HighlighOffsetsTiming":
+                            [
+                             {
+                             "startTime": 113000,
+                             "rate": 1800 ,
+                             "biginnerCharIndex" : 0 ,
+                             "endCharIndex" : 2 , 
+                             "index" : 0
+                             },
+                             {
+                             "startTime": 114800,
+                             "rate": 600 ,
+                             "biginnerCharIndex" : 3 ,
+                             "endCharIndex" : 7 ,
+                             "index" : 1
+                             },
+                             {
+                             "startTime": 115400,
+                             "rate": 600 ,
+                             "biginnerCharIndex" : 8 ,
+                             "endCharIndex" : 13 , 
+                             "index" : 2
+                             }
+                             ]
+                            },
+                            {
+                              "title": "جنس کویرمونه",
+                              "DisplayStartTime": 116000,
+                              "DisplayEndTime": 118600,
+                              "index" : 42 ,
+                              "direction" : "RTL",
+                              "HighlighOffsetsTiming":
+                              [
+                               {
+                               "startTime": 116000,
+                               "rate": 600 ,
+                               "biginnerCharIndex" : 0 ,
+                               "endCharIndex" : 2 , 
+                               "index" : 0
+                               },
+                               {
+                               "startTime": 116600,
+                               "rate": 2000 ,
+                               "biginnerCharIndex" : 3 ,
+                               "endCharIndex" : 7 ,
+                               "index" : 1
+                               }
+                               ]
+                              },
+                              {
+                                "title": "دست به تنش نخورده",
+                                "DisplayStartTime": 118600,
+                                "DisplayEndTime": 121200,
+                                "index" : 43 ,
+                                "direction" : "RTL",
+                                "HighlighOffsetsTiming":
+                                [
+                                 {
+                                 "startTime": 118600,
+                                 "rate": 600 ,
+                                 "biginnerCharIndex" : 0 ,
+                                 "endCharIndex" : 2 , 
+                                 "index" : 0
+                                 },
+                                 {
+                                 "startTime": 119200,
+                                 "rate": 2000 ,
+                                 "biginnerCharIndex" : 3 ,
+                                 "endCharIndex" : 7 ,
+                                 "index" : 1
+                                 }
+                                 ]
+                                },
+                                {
+                                  "title": "قلبمو ميسوزونه",
+                                  "DisplayStartTime": 121200,
+                                  "DisplayEndTime": 123800,
+                                  "index" : 44 ,
+                                  "direction" : "RTL",
+                                  "HighlighOffsetsTiming":
+                                  [
+                                   {
+                                   "startTime": 121200,
+                                   "rate": 600 ,
+                                   "biginnerCharIndex" : 0 ,
+                                   "endCharIndex" : 2 , 
+                                   "index" : 0
+                                   },
+                                   {
+                                   "startTime": 121800,
+                                   "rate": 2000 ,
+                                   "biginnerCharIndex" : 3 ,
+                                   "endCharIndex" : 7 ,
+                                   "index" : 1
+                                   }
+                                   ]
+                                  } ,{
+                                    "title": "آتیش‌آتیش اسم اونه",
+                                    "DisplayStartTime": 123800,
+                                    "DisplayEndTime": 126800,
+                                    "index" : 45 ,
+                                    "direction" : "RTL",
+                                    "HighlighOffsetsTiming":
+                                    [
+                                     {
+                                     "startTime": 123800,
+                                     "rate": 1800 ,
+                                     "biginnerCharIndex" : 0 ,
+                                     "endCharIndex" : 2 , 
+                                     "index" : 0
+                                     },
+                                     {
+                                     "startTime": 125600,
+                                     "rate": 600 ,
+                                     "biginnerCharIndex" : 3 ,
+                                     "endCharIndex" : 7 ,
+                                     "index" : 1
+                                     },
+                                     {
+                                     "startTime": 126200,
+                                     "rate": 600 ,
+                                     "biginnerCharIndex" : 8 ,
+                                     "endCharIndex" : 13 , 
+                                     "index" : 2
+                                     }
+                                     ]
+                                    },
+                                  {
+                                    "title": "جنس كويرمونه",
+                                    "DisplayStartTime": 126800,
+                                    "DisplayEndTime": 129400,
+                                    "index" : 46 ,
+                                    "direction" : "RTL",
+                                    "HighlighOffsetsTiming":
+                                    [
+                                     {
+                                     "startTime": 126800,
+                                     "rate": 600 ,
+                                     "biginnerCharIndex" : 0 ,
+                                     "endCharIndex" : 2 , 
+                                     "index" : 0
+                                     },
+                                     {
+                                     "startTime": 127400,
+                                     "rate": 2000 ,
+                                     "biginnerCharIndex" : 3 ,
+                                     "endCharIndex" : 7 ,
+                                     "index" : 1
+                                     }
+                                     ]
+                                    },{
+                                      "title": "دست به تنش نخورده",
+                                      "DisplayStartTime": 129400,
+                                      "DisplayEndTime": 132000,
+                                      "index" : 47 ,
+                                      "direction" : "RTL",
+                                      "HighlighOffsetsTiming":
+                                      [
+                                       {
+                                       "startTime": 129400,
+                                       "rate": 600 ,
+                                       "biginnerCharIndex" : 0 ,
+                                       "endCharIndex" : 2 , 
+                                       "index" : 0
+                                       },
+                                       {
+                                       "startTime": 130000,
+                                       "rate": 2000 ,
+                                       "biginnerCharIndex" : 3 ,
+                                       "endCharIndex" : 7 ,
+                                       "index" : 1
+                                       }
+                                       ]
+                                      }
  ]
 
