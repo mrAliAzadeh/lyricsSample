@@ -458,36 +458,36 @@
  },
  {
  "title": "دست به تنش نخورده" ,
- "DisplayStartTime": 66900,
- "DisplayEndTime": 69700,
+ "DisplayStartTime": 67000,
+ "DisplayEndTime": 70000,
   "index" : 14 ,
   "direction" : "RTL",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 66900,
+  "startTime": 67000,
   "rate": 300 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 4 ,
     "index" : 0
   },
   {
-  "startTime": 67200,
+  "startTime": 67300,
   "rate": 250 ,
   "biginnerCharIndex" : 5 ,
   "endCharIndex" : 9 ,
     "index" : 1
   },
   {
-  "startTime": 67450,
+  "startTime": 67550,
   "rate": 700 ,
   "biginnerCharIndex" : 10 ,
   "endCharIndex" : 12 ,
     "index" : 2
   },
   {
-  "startTime": 68150,
-  "rate": 1850 ,
+  "startTime": 68250,
+  "rate": 1150 ,
   "biginnerCharIndex" : 13 ,
   "endCharIndex" : 17 ,
     "index" : 3
@@ -497,21 +497,21 @@
  {
  "title": "Como el-fuego",
  "DisplayStartTime": 70000,
- "DisplayEndTime": 71200,
+ "DisplayEndTime": 70500,
   "index" : 15 ,
   "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 69700,
-  "rate": 375 ,
+  "startTime": 70000,
+  "rate": 150 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 2 ,
     "index" : 0
   },
   {
-  "startTime": 70075,
-  "rate": 375 ,
+  "startTime": 70150,
+  "rate": 350 ,
   "biginnerCharIndex" : 3 ,
   "endCharIndex" : 5 ,
     "index" : 1
@@ -520,29 +520,29 @@
  },
  {
  "title": "esa soy yo",
- "DisplayStartTime": 71500,
- "DisplayEndTime": 73100,
+ "DisplayStartTime": 70500,
+ "DisplayEndTime": 71000,
   "index" : 16 ,
   "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 71500,
-  "rate": 533.3333333333334 ,
+  "startTime": 70500,
+  "rate": 200 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 8 ,
     "index" : 0
   },
   {
-  "startTime": 72033.33333333333,
-  "rate": 533.3333333333334 ,
+  "startTime": 70700,
+  "rate": 200 ,
   "biginnerCharIndex" : 9 ,
   "endCharIndex" : 10 ,
     "index" : 1
   },
   {
-  "startTime": 72566.66666666667,
-  "rate": 533.3333333333334 ,
+  "startTime": 70900,
+  "rate": 100 ,
   "biginnerCharIndex" : 11 ,
   "endCharIndex" : 18 ,
     "index" : 2
@@ -551,29 +551,29 @@
  },
  {
  "title": "soy calor-que to",
- "DisplayStartTime": 73300,
- "DisplayEndTime": 75000,
+ "DisplayStartTime": 71000,
+ "DisplayEndTime": 72500,
   "index" : 17 ,
   "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 73300,
-  "rate": 340 ,
+  "startTime": 71000,
+  "rate": 300 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 3 ,
     "index" : 0
   },
   {
-  "startTime": 73640,
-  "rate": 340 ,
+  "startTime": 71300,
+  "rate": 1000 ,
   "biginnerCharIndex" : 4 ,
   "endCharIndex" : 8 ,
     "index" : 1
   },
   {
-  "startTime": 73980,
-  "rate": 340 ,
+  "startTime": 72300,
+  "rate": 200 ,
   "biginnerCharIndex" : 9 ,
   "endCharIndex" : 12 ,
     "index" : 2
@@ -582,29 +582,29 @@
  },
  {
  "title": "quema la piel",
- "DisplayStartTime": 75000,
- "DisplayEndTime": 77000,
+ "DisplayStartTime": 72500,
+ "DisplayEndTime": 74000,
    "index" : 18 ,
   "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 75000,
+  "startTime": 72500,
   "rate": 500 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 2 ,
     "index" : 0
   },
   {
-  "startTime": 75500,
-  "rate": 500 ,
+  "startTime": 73000,
+  "rate": 200 ,
   "biginnerCharIndex" : 3 ,
   "endCharIndex" : 7 ,
     "index" : 1
   },
   {
-  "startTime": 76000,
-  "rate": 500 ,
+  "startTime": 73200,
+  "rate": 800 ,
   "biginnerCharIndex" : 8 ,
   "endCharIndex" : 10 ,
     "index" : 2
@@ -612,30 +612,30 @@
   ]
  },
  {
- "title": "Mo boca ardient",
- "DisplayStartTime": 77000,
- "DisplayEndTime": 79000,
+ "title": "Mi boca ardient",
+ "DisplayStartTime": 74000,
+ "DisplayEndTime": 75000,
  "index" : 19 ,
  "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 77000,
-  "rate": 400 ,
+  "startTime": 74000,
+  "rate": 200 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 2 , 
   "index" : 0
   },
   {
-  "startTime": 77400,
-  "rate": 400 ,
+  "startTime": 74200,
+  "rate": 300 ,
   "biginnerCharIndex" : 3 ,
   "endCharIndex" : 5 , 
   "index" : 1
   },
   {
-  "startTime": 77800,
-  "rate": 400 ,
+  "startTime": 74500,
+  "rate": 500 ,
   "biginnerCharIndex" : 6 ,
   "endCharIndex" : 10 , 
   "index" : 2
@@ -644,36 +644,36 @@
  },
  {
  "title": "con saboor a miel",
- "DisplayStartTime": 79400,
- "DisplayEndTime": 81000,
+ "DisplayStartTime": 75000,
+ "DisplayEndTime": 77500,
  "index" : 20 ,
  "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 79400,
-  "rate": 320 ,
+  "startTime": 75000,
+  "rate": 550 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 3 , 
   "index" : 0
   },
   {
-  "startTime": 79720,
-  "rate": 320 ,
+  "startTime": 75550,
+  "rate": 750 ,
   "biginnerCharIndex" : 4 ,
   "endCharIndex" : 6 , 
   "index" : 1
   },
   {
-  "startTime": 80040,
-  "rate": 320 ,
+  "startTime": 76300,
+  "rate": 100 ,
   "biginnerCharIndex" : 7 ,
   "endCharIndex" : 11 , 
   "index" : 2
   },
   {
-  "startTime": 80360,
-  "rate": 320 ,
+  "startTime": 76400,
+  "rate": 1100 ,
   "biginnerCharIndex" : 12 ,
   "endCharIndex" : 15 , 
   "index" : 3
@@ -682,36 +682,36 @@
  },
  {
  "title": "En mi se funden",
- "DisplayStartTime": 81300,
- "DisplayEndTime": 83000,
+ "DisplayStartTime": 77500,
+ "DisplayEndTime": 78500,
  "index" : 21 ,
  "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 81300,
-  "rate": 340 ,
+  "startTime": 77500,
+  "rate": 150 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 4 , 
   "index" : 0
   },
   {
-  "startTime": 81980,
-  "rate": 340 ,
+  "startTime": 77650,
+  "rate": 150 ,
   "biginnerCharIndex" : 10 ,
   "endCharIndex" : 12 , 
   "index" : 1
   },
   {
-  "startTime": 82320,
-  "rate": 340 ,
+  "startTime": 77800,
+  "rate": 150 ,
   "biginnerCharIndex" : 13 ,
   "endCharIndex" : 17 , 
   "index" : 2
   },
   {
-  "startTime": 82660,
-  "rate": 340 ,
+  "startTime": 77950,
+  "rate": 550 ,
   "biginnerCharIndex" : 18 ,
   "endCharIndex" : 19 , 
   "index" : 3
@@ -720,43 +720,43 @@
  },
  {
  "title": "la luna y el sol",
- "DisplayStartTime": 83000,
- "DisplayEndTime": 85000,
+ "DisplayStartTime": 78500,
+ "DisplayEndTime": 79600,
  "index" : 22 ,
  "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 83000,
-  "rate": 500 ,
+  "startTime": 78500,
+  "rate": 100 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 4 , 
   "index" : 0
   },
   {
-  "startTime": 83500,
+  "startTime": 78600,
   "rate": 500 ,
   "biginnerCharIndex" : 5 ,
   "endCharIndex" : 9 , 
   "index" : 1
   },
   {
-  "startTime": 84000,
-  "rate": 500 ,
+  "startTime": 79100,
+  "rate": 100 ,
   "biginnerCharIndex" : 10 ,
   "endCharIndex" : 12 , 
   "index" : 2
   },
   {
-  "startTime": 84500,
-  "rate": 500 ,
+  "startTime": 79200,
+  "rate": 150 ,
   "biginnerCharIndex" : 13 ,
   "endCharIndex" : 17 , 
   "index" : 3
   } ,
   {
-    "startTime": 84500,
-    "rate": 500 ,
+    "startTime": 79350,
+    "rate": 250 ,
     "biginnerCharIndex" : 13 ,
     "endCharIndex" : 17 , 
     "index" : 4
@@ -765,22 +765,22 @@
  },
  {
  "title": "Damino el arte de",
- "DisplayStartTime": 85300,
- "DisplayEndTime": 86500,
+ "DisplayStartTime": 79600,
+ "DisplayEndTime": 81100,
  "index" : 23 ,
  "direction" : "lTR",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 85300,
-  "rate": 400 ,
+  "startTime": 79600,
+  "rate": 700 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 4 , 
   "index" : 0
   },
   {
   "startTime": 85700,
-  "rate": 400 ,
+  "rate": 200 ,
   "biginnerCharIndex" : 5 ,
   "endCharIndex" : 7 , 
   "index" : 1
@@ -794,7 +794,7 @@
   },
   {
     "startTime": 86100,
-    "rate": 400 ,
+    "rate": 200 ,
     "biginnerCharIndex" : 8 ,
     "endCharIndex" : 12 , 
     "index" : 3
@@ -803,22 +803,22 @@
  },
  {
  "title": "la seduccin",
- "DisplayStartTime": 86700,
- "DisplayEndTime": 88500,
+ "DisplayStartTime": 81100,
+ "DisplayEndTime": 82000,
  "index" : 24 ,
  "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 86700,
-  "rate": 360 ,
+  "startTime": 81100,
+  "rate": 200 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 5, 
   "index" : 0
   },
   {
-  "startTime": 87060,
-  "rate": 360 ,
+  "startTime": 81300,
+  "rate": 700 ,
   "biginnerCharIndex" : 6 ,
   "endCharIndex" : 12 , 
   "index" : 1
@@ -827,22 +827,22 @@
  },
  {
  "title": "labios jugosos",
- "DisplayStartTime": 88800,
- "DisplayEndTime": 90400,
+ "DisplayStartTime": 82000,
+ "DisplayEndTime": 83200,
  "index" : 25 ,
  "direction" : "LTR",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 88800,
-  "rate": 400 ,
+  "startTime": 82000,
+  "rate": 500 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 4 , 
   "index" : 0
   },
   {
-  "startTime": 89200,
-  "rate": 400 ,
+  "startTime": 82600,
+  "rate": 600 ,
   "biginnerCharIndex" : 5 ,
   "endCharIndex" : 7 , 
   "index" : 1
@@ -851,34 +851,303 @@
  },
  {
  "title": "recorren tu ser",
- "DisplayStartTime": 90500,
- "DisplayEndTime": 92100,
- "index" : 25 ,
+ "DisplayStartTime": 83200,
+ "DisplayEndTime": 84400,
+ "index" : 26 ,
  "direction" : "lTR",
  "HighlighOffsetsTiming":
  [
   {
-  "startTime": 90500,
-  "rate": 320 ,
+  "startTime": 83200,
+  "rate": 700 ,
   "biginnerCharIndex" : 0 ,
   "endCharIndex" : 2 , 
   "index" : 0
   },
   {
-  "startTime": 90820,
-  "rate": 320 ,
+  "startTime": 83900,
+  "rate": 300 ,
   "biginnerCharIndex" : 3 ,
   "endCharIndex" : 7 ,
   "index" : 1
   },
   {
-  "startTime": 91140,
-  "rate": 320 ,
+  "startTime": 84200,
+  "rate": 200 ,
   "biginnerCharIndex" : 8 ,
   "endCharIndex" : 13 , 
   "index" : 2
   }
   ]
- }
+ },
+ {
+  "title": "mis ojos negros",
+  "DisplayStartTime": 84400,
+  "DisplayEndTime": 85300,
+  "index" : 27 ,
+  "direction" : "lTR",
+  "HighlighOffsetsTiming":
+  [
+   {
+   "startTime": 84400,
+   "rate": 200 ,
+   "biginnerCharIndex" : 0 ,
+   "endCharIndex" : 2 , 
+   "index" : 0
+   },
+   {
+   "startTime": 84600,
+   "rate": 200 ,
+   "biginnerCharIndex" : 3 ,
+   "endCharIndex" : 7 ,
+   "index" : 1
+   },
+   {
+   "startTime": 84800,
+   "rate": 500 ,
+   "biginnerCharIndex" : 8 ,
+   "endCharIndex" : 13 , 
+   "index" : 2
+   }
+   ]
+  },
+  {
+    "title": "te calman tu sed",
+    "DisplayStartTime": 85300,
+    "DisplayEndTime": 87300,
+    "index" : 28 ,
+    "direction" : "lTR",
+    "HighlighOffsetsTiming":
+    [
+     {
+     "startTime": 85300,
+     "rate": 200 ,
+     "biginnerCharIndex" : 0 ,
+     "endCharIndex" : 2 , 
+     "index" : 0
+     },
+     {
+     "startTime": 85500,
+     "rate": 700 ,
+     "biginnerCharIndex" : 3 ,
+     "endCharIndex" : 7 ,
+     "index" : 1
+     },
+     {
+     "startTime": 86200,
+     "rate": 100 ,
+     "biginnerCharIndex" : 8 ,
+     "endCharIndex" : 13 , 
+     "index" : 2
+     },
+     {
+      "startTime": 86300,
+      "rate": 1000 ,
+      "biginnerCharIndex" : 8 ,
+      "endCharIndex" : 13 , 
+      "index" : 3
+      }
+     ]
+    },
+    {
+      "title": "mi cuerpo como",
+      "DisplayStartTime": 87300,
+      "DisplayEndTime": 88600,
+      "index" : 29 ,
+      "direction" : "lTR",
+      "HighlighOffsetsTiming":
+      [
+       {
+       "startTime": 87300,
+       "rate": 100 ,
+       "biginnerCharIndex" : 0 ,
+       "endCharIndex" : 2 , 
+       "index" : 0
+       },
+       {
+       "startTime": 87400,
+       "rate": 900 ,
+       "biginnerCharIndex" : 3 ,
+       "endCharIndex" : 7 ,
+       "index" : 1
+       },
+       {
+       "startTime": 88300,
+       "rate": 300 ,
+       "biginnerCharIndex" : 8 ,
+       "endCharIndex" : 13 , 
+       "index" : 2
+       }
+       ]
+      },
+      {
+        "title": "las olas del mar",
+        "DisplayStartTime": 88600,
+        "DisplayEndTime": 90000,
+        "index" : 30 ,
+        "direction" : "lTR",
+        "HighlighOffsetsTiming":
+        [
+         {
+         "startTime": 88600,
+         "rate": 300 ,
+         "biginnerCharIndex" : 0 ,
+         "endCharIndex" : 2 , 
+         "index" : 0
+         },
+         {
+         "startTime": 88900,
+         "rate": 400 ,
+         "biginnerCharIndex" : 3 ,
+         "endCharIndex" : 7 ,
+         "index" : 1
+         },
+         {
+         "startTime": 89300,
+         "rate": 300 ,
+         "biginnerCharIndex" : 8 ,
+         "endCharIndex" : 13 , 
+         "index" : 2
+         },
+         {
+          "startTime": 89600,
+          "rate": 400 ,
+          "biginnerCharIndex" : 8 ,
+          "endCharIndex" : 13 , 
+          "index" : 3
+          }
+         ]
+        },
+        {
+          "title": "si tu me suaes",
+          "DisplayStartTime": 90000,
+          "DisplayEndTime": 91000,
+          "index" : 31 ,
+          "direction" : "lTR",
+          "HighlighOffsetsTiming":
+          [
+           {
+           "startTime": 90000,
+           "rate": 100 ,
+           "biginnerCharIndex" : 0 ,
+           "endCharIndex" : 2 , 
+           "index" : 0
+           },
+           {
+           "startTime": 90100,
+           "rate": 100 ,
+           "biginnerCharIndex" : 3 ,
+           "endCharIndex" : 7 ,
+           "index" : 1
+           },
+           {
+           "startTime": 90200,
+           "rate": 250 ,
+           "biginnerCharIndex" : 8 ,
+           "endCharIndex" : 13 , 
+           "index" : 2
+           },
+           {
+            "startTime": 90450,
+            "rate": 550 ,
+            "biginnerCharIndex" : 8 ,
+            "endCharIndex" : 13 , 
+            "index" : 3
+            }
+           ]
+          },
+          {
+            "title": "te har disfrutar",
+            "DisplayStartTime": 91000,
+            "DisplayEndTime": 92700,
+            "index" : 32 ,
+            "direction" : "lTR",
+            "HighlighOffsetsTiming":
+            [
+             {
+             "startTime": 91000,
+             "rate": 200 ,
+             "biginnerCharIndex" : 0 ,
+             "endCharIndex" : 2 , 
+             "index" : 0
+             },
+             {
+             "startTime": 91300,
+             "rate": 500 ,
+             "biginnerCharIndex" : 3 ,
+             "endCharIndex" : 7 ,
+             "index" : 1
+             },
+             {
+             "startTime": 91800,
+             "rate": 900 ,
+             "biginnerCharIndex" : 8 ,
+             "endCharIndex" : 13 , 
+             "index" : 2
+             }
+             ]
+            },
+            {
+              "title": "منم از عاشقاشم",
+              "DisplayStartTime": 92700,
+              "DisplayEndTime": 96000,
+              "index" : 33 ,
+              "direction" : "lTR",
+              "HighlighOffsetsTiming":
+              [
+               {
+               "startTime": 92700,
+               "rate": 100 ,
+               "biginnerCharIndex" : 0 ,
+               "endCharIndex" : 2 , 
+               "index" : 0
+               },
+               {
+               "startTime": 93700,
+               "rate": 100 ,
+               "biginnerCharIndex" : 3 ,
+               "endCharIndex" : 7 ,
+               "index" : 1
+               },
+               {
+               "startTime": 93800,
+               "rate": 1700 ,
+               "biginnerCharIndex" : 8 ,
+               "endCharIndex" : 13 , 
+               "index" : 2
+               }
+               ]
+              },
+              {
+                "title": "یه عاشق پریشون",
+                "DisplayStartTime": 95500,
+                "DisplayEndTime": 98200,
+                "index" : 34 ,
+                "direction" : "lTR",
+                "HighlighOffsetsTiming":
+                [
+                 {
+                 "startTime": 95500,
+                 "rate": 500 ,
+                 "biginnerCharIndex" : 0 ,
+                 "endCharIndex" : 2 , 
+                 "index" : 0
+                 },
+                 {
+                 "startTime": 96000,
+                 "rate": 800 ,
+                 "biginnerCharIndex" : 3 ,
+                 "endCharIndex" : 7 ,
+                 "index" : 1
+                 },
+                 {
+                 "startTime": 96800,
+                 "rate": 1400 ,
+                 "biginnerCharIndex" : 8 ,
+                 "endCharIndex" : 13 , 
+                 "index" : 2
+                 }
+                 ]
+                }
  ]
 
